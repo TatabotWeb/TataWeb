@@ -1,0 +1,3489 @@
+{
+ "gifts": [
+  {
+   "id": "quetzalcoatl",
+   "emoji": "🐉",
+   "name": "Serpiente Emplumada",
+   "origin": "Quetzalcóatl (Mesoamérica)",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendario"
+   },
+   "skills": [
+    {
+     "name": "Ala de Jade",
+     "level": 1,
+     "cost": 25,
+     "effect": "22-28 daño"
+    },
+    {
+     "name": "Vuelo del Viento",
+     "level": 3,
+     "cost": 35,
+     "effect": "escudo 8, tu próximo ataque x1.3, 45% esquivar por 2 turnos"
+    },
+    {
+     "name": "Serpiente Emplumada",
+     "level": 5,
+     "cost": 60,
+     "effect": "40-48 daño, ignora bloqueo"
+    }
+   ],
+   "greatSpell": {
+    "name": "Cielo y Tierra",
+    "effect": "54-64 daño, 60% aturdir"
+   }
+  },
+  {
+   "id": "tezcatlipoca",
+   "emoji": "🪞",
+   "name": "Espejo Humeante",
+   "origin": "Tezcatlipoca (Mesoamérica)",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendario"
+   },
+   "skills": [
+    {
+     "name": "Filo de Obsidiana",
+     "level": 1,
+     "cost": 25,
+     "effect": "21-27 daño"
+    },
+    {
+     "name": "Espejo Humeante",
+     "level": 3,
+     "cost": 35,
+     "effect": "escudo 20, devuelve 50% del daño por 2 turnos"
+    },
+    {
+     "name": "Jaguar Nocturno",
+     "level": 5,
+     "cost": 55,
+     "effect": "38-46 daño, rival 30% de fallar por 2 turnos"
+    }
+   ],
+   "greatSpell": {
+    "name": "Noche y Viento",
+    "effect": "52-62 daño, devuelve 40% del daño por 2 turnos"
+   }
+  },
+  {
+   "id": "pachamama",
+   "emoji": "🌽",
+   "name": "Ofrenda a la Pachamama",
+   "origin": "Pachamama (Andes)",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendario"
+   },
+   "skills": [
+    {
+     "name": "Tierra Fértil",
+     "level": 1,
+     "cost": 25,
+     "effect": "20-26 daño"
+    },
+    {
+     "name": "Ofrenda a la Pachamama",
+     "level": 3,
+     "cost": 50,
+     "effect": "cura 20, limpia estados"
+    },
+    {
+     "name": "Temblor",
+     "level": 5,
+     "cost": 55,
+     "effect": "38-46 daño, 30% aturdir"
+    }
+   ],
+   "greatSpell": {
+    "name": "Madre Tierra",
+    "effect": "52-62 daño, cura 10, limpia estados"
+   }
+  },
+  {
+   "id": "salamanca",
+   "emoji": "😈",
+   "name": "Pacto de la Salamanca",
+   "origin": "La Salamanca (Cono Sur)",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendario"
+   },
+   "skills": [
+    {
+     "name": "Pacto",
+     "level": 1,
+     "cost": 20,
+     "effect": "24-30 daño, -2 a vos"
+    },
+    {
+     "name": "Poder Prestado",
+     "level": 3,
+     "cost": 30,
+     "effect": "tu próximo ataque x1.8, -5 a vos"
+    },
+    {
+     "name": "Precio de la Salamanca",
+     "level": 5,
+     "cost": 55,
+     "effect": "48-58 daño, -6 a vos"
+    }
+   ],
+   "greatSpell": {
+    "name": "La Salamanca",
+    "effect": "60-72 daño, -5 a vos"
+   }
+  },
+  {
+   "id": "nahualismo",
+   "emoji": "🐆",
+   "name": "Nahualismo",
+   "origin": "El Nahual (Mesoamérica)",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "skills": [
+    {
+     "name": "Zarpazo",
+     "level": 1,
+     "cost": 25,
+     "effect": "20-26 daño"
+    },
+    {
+     "name": "Nahualismo",
+     "level": 3,
+     "cost": 40,
+     "effect": "cura 15, +35% daño por 3 turnos"
+    },
+    {
+     "name": "Furia del Nahual",
+     "level": 5,
+     "cost": 55,
+     "effect": "36-44 daño, roba 25% vida"
+    }
+   ],
+   "greatSpell": {
+    "name": "Noche de los Nahuales",
+    "effect": "50-60 daño, +25% daño por 2 turnos"
+   }
+  },
+  {
+   "id": "illapa",
+   "emoji": "⚡",
+   "name": "Rayo de Illapa",
+   "origin": "Illapa (Andes)",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "skills": [
+    {
+     "name": "Chispa",
+     "level": 1,
+     "cost": 20,
+     "effect": "19-25 daño, ignora bloqueo"
+    },
+    {
+     "name": "Rayo de Illapa",
+     "level": 3,
+     "cost": 35,
+     "effect": "28-34 daño, ignora bloqueo, 20% aturdir"
+    },
+    {
+     "name": "Tormenta del Altiplano",
+     "level": 5,
+     "cost": 60,
+     "effect": "40-48 daño, ignora bloqueo"
+    }
+   ],
+   "greatSpell": {
+    "name": "Granizo de Illapa",
+    "effect": "50-60 daño, 60% aturdir"
+   }
+  },
+  {
+   "id": "lobizon",
+   "emoji": "🐺",
+   "name": "Séptimo Hijo",
+   "origin": "El Lobizón (Cono Sur)",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "skills": [
+    {
+     "name": "Mordida",
+     "level": 1,
+     "cost": 25,
+     "effect": "23-29 daño"
+    },
+    {
+     "name": "Luna Llena",
+     "level": 3,
+     "cost": 35,
+     "effect": "cura 6, -3 a vos, +45% daño por 3 turnos"
+    },
+    {
+     "name": "Carnicería",
+     "level": 5,
+     "cost": 55,
+     "effect": "40-48 daño, -2 a vos"
+    }
+   ],
+   "greatSpell": {
+    "name": "Viernes de Luna Llena",
+    "effect": "56-66 daño, -3 a vos"
+   }
+  },
+  {
+   "id": "yacumama",
+   "emoji": "🌊",
+   "name": "Marea del Amazonas",
+   "origin": "La Yacumama (Amazonía)",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "skills": [
+    {
+     "name": "Coletazo",
+     "level": 1,
+     "cost": 25,
+     "effect": "20-26 daño"
+    },
+    {
+     "name": "Remolino",
+     "level": 3,
+     "cost": 35,
+     "effect": "22-28 daño, roba 20⚡"
+    },
+    {
+     "name": "Marea del Amazonas",
+     "level": 5,
+     "cost": 60,
+     "effect": "40-48 daño, 35% aturdir"
+    }
+   ],
+   "greatSpell": {
+    "name": "Madre del Agua",
+    "effect": "52-62 daño, roba 30⚡"
+   }
+  },
+  {
+   "id": "pelota",
+   "emoji": "🏟️",
+   "name": "Juego de Pelota",
+   "origin": "Xibalbá (Maya)",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "skills": [
+    {
+     "name": "Pelotazo",
+     "level": 1,
+     "cost": 25,
+     "effect": "20-26 daño"
+    },
+    {
+     "name": "Juego de Pelota",
+     "level": 3,
+     "cost": 35,
+     "effect": "18-24 daño, roba 30⚡"
+    },
+    {
+     "name": "Sacrificio del Perdedor",
+     "level": 5,
+     "cost": 55,
+     "effect": "36-44 daño, roba 20⚡, rival -20% daño por 2 turnos"
+    }
+   ],
+   "greatSpell": {
+    "name": "Xibalbá",
+    "effect": "50-60 daño, roba 40⚡"
+   }
+  },
+  {
+   "id": "cadejo",
+   "emoji": "🐕",
+   "name": "Cadejo, Luz y Sombra",
+   "origin": "El Cadejo (Centroamérica)",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "skills": [
+    {
+     "name": "Mordida",
+     "level": 1,
+     "cost": 25,
+     "effect": "20-26 daño"
+    },
+    {
+     "name": "Cadejo Blanco",
+     "level": 3,
+     "cost": 35,
+     "effect": "cura 10, escudo 18"
+    },
+    {
+     "name": "Cadejo Negro",
+     "level": 5,
+     "cost": 50,
+     "effect": "36-44 daño, roba 15% vida"
+    }
+   ],
+   "greatSpell": {
+    "name": "Luz y Sombra",
+    "effect": "48-58 daño, cura 10"
+   }
+  },
+  {
+   "id": "llorona",
+   "emoji": "👰",
+   "name": "Lamento de la Llorona",
+   "origin": "La Llorona (México)",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "skills": [
+    {
+     "name": "Lágrimas",
+     "level": 1,
+     "cost": 20,
+     "effect": "19-25 daño"
+    },
+    {
+     "name": "Lamento",
+     "level": 3,
+     "cost": 30,
+     "effect": "16-20 daño, rival -35% daño por 2 turnos"
+    },
+    {
+     "name": "¡Ay, mis hijos!",
+     "level": 5,
+     "cost": 50,
+     "effect": "37-45 daño, 30% aturdir"
+    }
+   ],
+   "greatSpell": {
+    "name": "Río de Lágrimas",
+    "effect": "46-56 daño, rival -30% daño por 2 turnos"
+   }
+  },
+  {
+   "id": "apu",
+   "emoji": "⛰️",
+   "name": "Aliento del Apu",
+   "origin": "Los Apus (Andes)",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "skills": [
+    {
+     "name": "Pedrada",
+     "level": 1,
+     "cost": 20,
+     "effect": "18-24 daño"
+    },
+    {
+     "name": "Aliento del Apu",
+     "level": 3,
+     "cost": 30,
+     "effect": "escudo 38"
+    },
+    {
+     "name": "Alud",
+     "level": 5,
+     "cost": 50,
+     "effect": "35-43 daño, 25% aturdir"
+    }
+   ],
+   "greatSpell": {
+    "name": "Cordillera Sagrada",
+    "effect": "46-56 daño, escudo 30"
+   }
+  },
+  {
+   "id": "alicanto",
+   "emoji": "🌟",
+   "name": "Brillo del Alicanto",
+   "origin": "El Alicanto (Andes)",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "skills": [
+    {
+     "name": "Destello Dorado",
+     "level": 1,
+     "cost": 20,
+     "effect": "17-23 daño, rival 20% de fallar por 1 turnos"
+    },
+    {
+     "name": "Brillo del Alicanto",
+     "level": 3,
+     "cost": 30,
+     "effect": "rival 45% de fallar por 2 turnos, +15% botín"
+    },
+    {
+     "name": "Vuelo del Oro",
+     "level": 5,
+     "cost": 50,
+     "effect": "37-45 daño"
+    }
+   ],
+   "greatSpell": {
+    "name": "Veta de Oro",
+    "effect": "46-56 daño, rival 50% de fallar por 2 turnos, +20% botín"
+   }
+  },
+  {
+   "id": "condor",
+   "emoji": "🦅",
+   "name": "Picada del Cóndor",
+   "origin": "El Cóndor andino (Andes)",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "skills": [
+    {
+     "name": "Garra",
+     "level": 1,
+     "cost": 20,
+     "effect": "20-26 daño"
+    },
+    {
+     "name": "Picada del Cóndor",
+     "level": 3,
+     "cost": 35,
+     "effect": "28-34 daño, ignora bloqueo, x1.6 si es tu primer golpe"
+    },
+    {
+     "name": "Vuelo Alto",
+     "level": 5,
+     "cost": 40,
+     "effect": "tu próximo ataque x1.3, 40% esquivar por 2 turnos"
+    }
+   ],
+   "greatSpell": {
+    "name": "Cielo de los Andes",
+    "effect": "52-62 daño"
+   }
+  },
+  {
+   "id": "mulanima",
+   "emoji": "⛓️",
+   "name": "Cadenas Ardientes",
+   "origin": "La Mulánima (Cono Sur)",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "skills": [
+    {
+     "name": "Latigazo de Cadena",
+     "level": 1,
+     "cost": 20,
+     "effect": "19-25 daño"
+    },
+    {
+     "name": "Cadenas Ardientes",
+     "level": 3,
+     "cost": 35,
+     "effect": "16-20 daño, 25% aturdir, quema 6×3"
+    },
+    {
+     "name": "Arrastre",
+     "level": 5,
+     "cost": 50,
+     "effect": "34-42 daño, quema 5×2"
+    }
+   ],
+   "greatSpell": {
+    "name": "Mula Ánima",
+    "effect": "46-56 daño, quema 9×3"
+   }
+  },
+  {
+   "id": "kalku",
+   "emoji": "🦉",
+   "name": "Maleficio del Kalku",
+   "origin": "El Kalku (Mapuche)",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "skills": [
+    {
+     "name": "Mal de Ojo",
+     "level": 1,
+     "cost": 20,
+     "effect": "16-22 daño, rival -15% daño por 2 turnos"
+    },
+    {
+     "name": "Maleficio",
+     "level": 3,
+     "cost": 35,
+     "effect": "rival 15% de fallar por 2 turnos, maleficio de 30 en 2 turnos"
+    },
+    {
+     "name": "Daño",
+     "level": 5,
+     "cost": 45,
+     "effect": "30-38 daño, sella don 1 turno(s)"
+    }
+   ],
+   "greatSpell": {
+    "name": "Wekufe",
+    "effect": "40-50 daño, maleficio de 22 en 2 turnos"
+   }
+  },
+  {
+   "id": "piuchen",
+   "emoji": "🦇",
+   "name": "Sed del Piuchén",
+   "origin": "El Piuchén (Mapuche)",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "skills": [
+    {
+     "name": "Mordida",
+     "level": 1,
+     "cost": 20,
+     "effect": "18-24 daño, roba 15% vida"
+    },
+    {
+     "name": "Sed del Piuchén",
+     "level": 3,
+     "cost": 35,
+     "effect": "26-32 daño, roba 22% vida"
+    },
+    {
+     "name": "Vuelo Nocturno",
+     "level": 5,
+     "cost": 35,
+     "effect": "30% esquivar por 2 turnos"
+    }
+   ],
+   "greatSpell": {
+    "name": "Noche de Sangre",
+    "effect": "46-56 daño, roba 20% vida"
+   }
+  },
+  {
+   "id": "boitata",
+   "emoji": "🔥",
+   "name": "Serpiente de Fuego",
+   "origin": "El Boitatá (Brasil)",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "skills": [
+    {
+     "name": "Mordida Ígnea",
+     "level": 1,
+     "cost": 20,
+     "effect": "17-23 daño, quema 2×2"
+    },
+    {
+     "name": "Rastro de Fuego",
+     "level": 3,
+     "cost": 30,
+     "effect": "6-10 daño, quema 3×3"
+    },
+    {
+     "name": "Serpiente de Fuego",
+     "level": 5,
+     "cost": 50,
+     "effect": "33-41 daño, quema 3×2"
+    }
+   ],
+   "greatSpell": {
+    "name": "Campo en Llamas",
+    "effect": "44-54 daño, quema 4×3"
+   }
+  },
+  {
+   "id": "siguanaba",
+   "emoji": "🎭",
+   "name": "Rostro de la Siguanaba",
+   "origin": "La Siguanaba (Centroamérica)",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "skills": [
+    {
+     "name": "Seducción",
+     "level": 1,
+     "cost": 20,
+     "effect": "19-25 daño"
+    },
+    {
+     "name": "Rostro de la Siguanaba",
+     "level": 3,
+     "cost": 35,
+     "effect": "12-16 daño, 50% de confundir por 2 turnos"
+    },
+    {
+     "name": "Ilusión",
+     "level": 5,
+     "cost": 45,
+     "effect": "32-40 daño, rival -15% daño por 2 turnos"
+    }
+   ],
+   "greatSpell": {
+    "name": "Barranco Encantado",
+    "effect": "46-56 daño, 50% de confundir por 2 turnos"
+   }
+  },
+  {
+   "id": "espanto",
+   "emoji": "👺",
+   "name": "Espanto",
+   "origin": "El Chaneque (México)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "skills": [
+    {
+     "name": "Susto",
+     "level": 1,
+     "cost": 20,
+     "effect": "16-22 daño, 25% aturdir"
+    },
+    {
+     "name": "Robar el Valor",
+     "level": 3,
+     "cost": 30,
+     "effect": "12-16 daño, roba 15⚡, rival -20% daño por 2 turnos"
+    },
+    {
+     "name": "Espanto",
+     "level": 5,
+     "cost": 45,
+     "effect": "30-38 daño, 40% aturdir"
+    }
+   ],
+   "greatSpell": {
+    "name": "Monte de los Chaneques",
+    "effect": "44-54 daño, 60% aturdir"
+   }
+  },
+  {
+   "id": "alux",
+   "emoji": "🗿",
+   "name": "Guardián de Barro",
+   "origin": "El Alux (Maya)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "skills": [
+    {
+     "name": "Puño de Barro",
+     "level": 1,
+     "cost": 20,
+     "effect": "17-23 daño"
+    },
+    {
+     "name": "Guardián de Barro",
+     "level": 3,
+     "cost": 30,
+     "effect": "escudo 38"
+    },
+    {
+     "name": "Muralla Viva",
+     "level": 5,
+     "cost": 45,
+     "effect": "30-38 daño, escudo 18"
+    }
+   ],
+   "greatSpell": {
+    "name": "Milpa Protegida",
+    "effect": "42-52 daño, escudo 25"
+   }
+  },
+  {
+   "id": "ekeko",
+   "emoji": "👝",
+   "name": "Bolsa del Ekeko",
+   "origin": "El Ekeko (Aymara)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "skills": [
+    {
+     "name": "Monedazo",
+     "level": 1,
+     "cost": 20,
+     "effect": "17-23 daño, roba 10⚡"
+    },
+    {
+     "name": "Bolsa del Ekeko",
+     "level": 3,
+     "cost": 30,
+     "effect": "50% jackpot (+30❤️ +30⚡), +15% botín"
+    },
+    {
+     "name": "Alasita",
+     "level": 5,
+     "cost": 45,
+     "effect": "32-40 daño, tu próximo ataque x1.4"
+    }
+   ],
+   "greatSpell": {
+    "name": "Feria de Alasitas",
+    "effect": "44-54 daño, +20% botín"
+   }
+  },
+  {
+   "id": "luzmala",
+   "emoji": "🕯️",
+   "name": "Luz Mala",
+   "origin": "La Luz Mala (Cono Sur)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "skills": [
+    {
+     "name": "Fuego Fatuo",
+     "level": 1,
+     "cost": 20,
+     "effect": "15-21 daño, quema 3×2"
+    },
+    {
+     "name": "Luz Mala",
+     "level": 3,
+     "cost": 30,
+     "effect": "10-14 daño, rival 25% de fallar por 2 turnos"
+    },
+    {
+     "name": "Llamarada del Campo",
+     "level": 5,
+     "cost": 45,
+     "effect": "30-38 daño, quema 6×2"
+    }
+   ],
+   "greatSpell": {
+    "name": "Noche sin Luna",
+    "effect": "42-52 daño, rival 35% de fallar por 2 turnos"
+   }
+  },
+  {
+   "id": "pombero",
+   "emoji": "🌳",
+   "name": "Silbido del Pombero",
+   "origin": "El Pombero (Guaraní)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "skills": [
+    {
+     "name": "Trenzas",
+     "level": 1,
+     "cost": 20,
+     "effect": "18-24 daño"
+    },
+    {
+     "name": "Silbido del Pombero",
+     "level": 3,
+     "cost": 30,
+     "effect": "18-22 daño, 50% aturdir, roba escudo y mejoras"
+    },
+    {
+     "name": "Travesura del Monte",
+     "level": 5,
+     "cost": 45,
+     "effect": "33-41 daño, roba 15⚡"
+    }
+   ],
+   "greatSpell": {
+    "name": "Siesta del Pombero",
+    "effect": "48-58 daño, 70% aturdir"
+   }
+  },
+  {
+   "id": "rewe",
+   "emoji": "🌿",
+   "name": "Rito del Rewe",
+   "origin": "La Machi (Mapuche)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "skills": [
+    {
+     "name": "Rama de Canelo",
+     "level": 1,
+     "cost": 20,
+     "effect": "18-24 daño"
+    },
+    {
+     "name": "Rito del Rewe",
+     "level": 3,
+     "cost": 35,
+     "effect": "cura 36, limpia estados"
+    },
+    {
+     "name": "Machitún",
+     "level": 5,
+     "cost": 45,
+     "effect": "30-38 daño, cura 14"
+    }
+   ],
+   "greatSpell": {
+    "name": "Nguillatún",
+    "effect": "46-56 daño, cura 20, limpia estados"
+   }
+  },
+  {
+   "id": "curupira",
+   "emoji": "🦶",
+   "name": "Pies del Curupira",
+   "origin": "El Curupira (Brasil)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "skills": [
+    {
+     "name": "Golpe del Monte",
+     "level": 1,
+     "cost": 20,
+     "effect": "20-26 daño"
+    },
+    {
+     "name": "Pies del Curupira",
+     "level": 3,
+     "cost": 30,
+     "effect": "50% esquivar por 2 turnos, rival 20% de fallar por 2 turnos"
+    },
+    {
+     "name": "Selva Furiosa",
+     "level": 5,
+     "cost": 45,
+     "effect": "35-43 daño"
+    }
+   ],
+   "greatSpell": {
+    "name": "Bosque sin Salida",
+    "effect": "44-54 daño, rival 40% de fallar por 2 turnos"
+   }
+  },
+  {
+   "id": "boto",
+   "emoji": "🐬",
+   "name": "Encanto del Boto",
+   "origin": "El Boto encantado (Amazonía)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "skills": [
+    {
+     "name": "Coletazo",
+     "level": 1,
+     "cost": 20,
+     "effect": "18-24 daño"
+    },
+    {
+     "name": "Encanto del Boto",
+     "level": 3,
+     "cost": 25,
+     "effect": "10-14 daño, 100% aturdir"
+    },
+    {
+     "name": "Remolino del Río",
+     "level": 5,
+     "cost": 45,
+     "effect": "34-42 daño, roba 20⚡"
+    }
+   ],
+   "greatSpell": {
+    "name": "Fiesta de San Juan",
+    "effect": "42-52 daño, 70% aturdir"
+   }
+  },
+  {
+   "id": "saci",
+   "emoji": "🌪️",
+   "name": "Remolino del Saci",
+   "origin": "El Saci Pererê (Brasil)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "skills": [
+    {
+     "name": "Patada",
+     "level": 1,
+     "cost": 20,
+     "effect": "18-24 daño"
+    },
+    {
+     "name": "Remolino del Saci",
+     "level": 3,
+     "cost": 30,
+     "effect": "14-18 daño, 50% de confundir por 2 turnos"
+    },
+    {
+     "name": "Torbellino",
+     "level": 5,
+     "cost": 45,
+     "effect": "33-41 daño, 30% aturdir"
+    }
+   ],
+   "greatSpell": {
+    "name": "Pipa Encantada",
+    "effect": "42-52 daño, 50% de confundir por 2 turnos"
+   }
+  },
+  {
+   "id": "sombreron",
+   "emoji": "🎸",
+   "name": "Guitarra del Sombrerón",
+   "origin": "El Sombrerón (Guatemala)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "skills": [
+    {
+     "name": "Rasgueo",
+     "level": 1,
+     "cost": 20,
+     "effect": "19-25 daño"
+    },
+    {
+     "name": "Serenata",
+     "level": 3,
+     "cost": 35,
+     "effect": "12-16 daño, 85% aturdir"
+    },
+    {
+     "name": "Trenzas de Mula",
+     "level": 5,
+     "cost": 45,
+     "effect": "32-40 daño, roba 15% vida, roba 10⚡"
+    }
+   ],
+   "greatSpell": {
+    "name": "Canción de Cuna Maldita",
+    "effect": "42-52 daño, 90% aturdir"
+   }
+  }
+ ],
+ "nahuales": [
+  {
+   "id": "quetzal",
+   "emoji": "🐉",
+   "name": "Quetzalcóatl",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendario"
+   },
+   "passive": "Cielo y tierra: ataca desde el aire: tus golpes ignoran bloqueo y escudo, y +7% de evasión."
+  },
+  {
+   "id": "llorona",
+   "emoji": "👰",
+   "name": "La Llorona",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendario"
+   },
+   "passive": "Lamento: el rival te pega 14% menos y pierde 3 de energía por turno."
+  },
+  {
+   "id": "nahual",
+   "emoji": "🐆",
+   "name": "Nahual",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendario"
+   },
+   "passive": "Mil formas: copia la pasiva del aliado del rival; si no tiene, pegás 10% más."
+  },
+  {
+   "id": "yacumama",
+   "emoji": "🐍",
+   "name": "Yacumama",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendario"
+   },
+   "passive": "Madre del agua: cada 6 turnos levanta una ola gigante (11-15 de daño). En raids, cada 5 golpes."
+  },
+  {
+   "id": "condor_apu",
+   "emoji": "🦅",
+   "name": "Cóndor Apu",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "passive": "Picada: en tu primer turno cae en picada sobre el rival (12-16 de daño)."
+  },
+  {
+   "id": "muqui",
+   "emoji": "⛏️",
+   "name": "Muqui",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "passive": "Infierno minero: el duende de las minas le quema 2 de vida al rival cada 2 turnos."
+  },
+  {
+   "id": "curupira",
+   "emoji": "🦶",
+   "name": "Curupira",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "passive": "Rastro falso: sus pies al revés confunden al rival: +8% de evasión (15% en raids)."
+  },
+  {
+   "id": "piuchen",
+   "emoji": "🦇",
+   "name": "Piuchén",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "passive": "Sed: te curás el 8% del daño que hacés."
+  },
+  {
+   "id": "cadejo_blanco",
+   "emoji": "🐕",
+   "name": "Cadejo Blanco",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "passive": "Protector: empezás con escudo de 4 y, si caés por debajo del 30%, te cubre con otro de 6. En raids cura al aliado más débil."
+  },
+  {
+   "id": "cadejo_negro",
+   "emoji": "🐺",
+   "name": "Cadejo Negro",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "passive": "Acechador: +12% de daño si el rival está por debajo de la mitad de su vida."
+  },
+  {
+   "id": "boto",
+   "emoji": "🐬",
+   "name": "Boto Encantado",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "passive": "Encanto: 5% de que el rival quede encantado y no te ataque (15% del jefe en raids)."
+  },
+  {
+   "id": "lechuza",
+   "emoji": "🦉",
+   "name": "Lechuza Bruja",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "passive": "Visión nocturna: +6% de crítico y los críticos hacen x1.7 en vez de x1.5."
+  },
+  {
+   "id": "alicanto",
+   "emoji": "🐦",
+   "name": "Alicanto",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "passive": "Oro: +4% de botín y, al empezar, encandila al rival (30% de fallar por 2 turnos)."
+  },
+  {
+   "id": "chaneque",
+   "emoji": "👺",
+   "name": "Chaneque",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "passive": "Susto: al pegar, 10% de aturdir al rival (una vez por pelea)."
+  },
+  {
+   "id": "alux_barro",
+   "emoji": "🗿",
+   "name": "Alux de Barro",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "passive": "Guardián: recibís 4% menos de daño (10% en raids)."
+  },
+  {
+   "id": "mariposa_negra",
+   "emoji": "🦋",
+   "name": "Mariposa Negra",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "passive": "Presagio: ve venir el movimiento del rival: 8% de esquivar sus dones (10% de los golpes del jefe en raids)."
+  },
+  {
+   "id": "cuy",
+   "emoji": "🐹",
+   "name": "Cuy Adivino",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "passive": "Buen augurio: +5% de chance de botín al ganar."
+  }
+ ],
+ "zones": [
+  {
+   "id": "milpa",
+   "emoji": "🌽",
+   "name": "Milpa de los Aluxes",
+   "level": 1,
+   "safe": true,
+   "desc": "Los Aluxes cuidan las milpas de Yucatán. Acá se aprende: nadie sale lastimado.",
+   "boss": "Alux Mayor",
+   "grades": [
+    {
+     "emoji": "🟢",
+     "name": "Aparecido"
+    }
+   ]
+  },
+  {
+   "id": "selva_curupira",
+   "emoji": "🌳",
+   "name": "Selva del Curupira",
+   "level": 3,
+   "safe": false,
+   "desc": "Huellas que van para el lado equivocado. El Curupira protege su selva.",
+   "boss": "Curupira",
+   "grades": [
+    {
+     "emoji": "🟢",
+     "name": "Aparecido"
+    },
+    {
+     "emoji": "🟡",
+     "name": "Espanto"
+    }
+   ]
+  },
+  {
+   "id": "altiplano",
+   "emoji": "🏔️",
+   "name": "Altiplano de los Apus",
+   "level": 6,
+   "safe": false,
+   "desc": "Los cerros sagrados miran desde arriba. Falta el aire y sobran los espíritus.",
+   "boss": "Cóndor Apu",
+   "grades": [
+    {
+     "emoji": "🟡",
+     "name": "Espanto"
+    },
+    {
+     "emoji": "🟢",
+     "name": "Aparecido"
+    }
+   ]
+  },
+  {
+   "id": "pampa",
+   "emoji": "🌾",
+   "name": "Pampa de la Luz Mala",
+   "level": 8,
+   "safe": false,
+   "desc": "Campo abierto y noches largas. Si ves una luz, no la sigas.",
+   "boss": "Lobizón",
+   "grades": [
+    {
+     "emoji": "🟡",
+     "name": "Espanto"
+    },
+    {
+     "emoji": "🟠",
+     "name": "Asombro"
+    }
+   ]
+  },
+  {
+   "id": "cenotes",
+   "emoji": "💧",
+   "name": "Cenotes Sagrados",
+   "level": 10,
+   "safe": false,
+   "desc": "Pozos de agua cristalina que llevan al inframundo maya.",
+   "boss": "Guardián del Cenote",
+   "grades": [
+    {
+     "emoji": "🟡",
+     "name": "Espanto"
+    },
+    {
+     "emoji": "🟠",
+     "name": "Asombro"
+    }
+   ]
+  },
+  {
+   "id": "amazonas",
+   "emoji": "🌊",
+   "name": "Río Amazonas",
+   "level": 13,
+   "safe": false,
+   "desc": "El río más grande del mundo, y la madre del agua vive en él.",
+   "boss": "Yacumama",
+   "grades": [
+    {
+     "emoji": "🟠",
+     "name": "Asombro"
+    },
+    {
+     "emoji": "🟡",
+     "name": "Espanto"
+    }
+   ]
+  },
+  {
+   "id": "salamanca",
+   "emoji": "🕳️",
+   "name": "Cuevas de Salamanca",
+   "level": 16,
+   "safe": false,
+   "desc": "Donde el Diablo enseña sus artes a cambio del alma. Se escucha música adentro.",
+   "boss": "El Diablo de la Salamanca",
+   "grades": [
+    {
+     "emoji": "🟠",
+     "name": "Asombro"
+    },
+    {
+     "emoji": "🔴",
+     "name": "Bestia"
+    }
+   ]
+  },
+  {
+   "id": "mina_supay",
+   "emoji": "⛏️",
+   "name": "Mina del Supay",
+   "level": 19,
+   "safe": false,
+   "desc": "Socavones de Potosí. Abajo, el Supay es el dueño de todo.",
+   "boss": "Supay",
+   "grades": [
+    {
+     "emoji": "🟠",
+     "name": "Asombro"
+    },
+    {
+     "emoji": "🔴",
+     "name": "Bestia"
+    }
+   ]
+  },
+  {
+   "id": "cadejos",
+   "emoji": "🌲",
+   "name": "Bosque de los Cadejos",
+   "level": 22,
+   "safe": false,
+   "desc": "Dos perros espectrales: uno te cuida, el otro te caza.",
+   "boss": "Cadejo negro",
+   "grades": [
+    {
+     "emoji": "🟠",
+     "name": "Asombro"
+    },
+    {
+     "emoji": "🔴",
+     "name": "Bestia"
+    }
+   ]
+  },
+  {
+   "id": "selva_boitata",
+   "emoji": "🔥",
+   "name": "Selva del Boitatá",
+   "level": 26,
+   "safe": false,
+   "desc": "La serpiente de fuego cuida esta selva. El pasto arde solo.",
+   "boss": "Boitatá",
+   "grades": [
+    {
+     "emoji": "🔴",
+     "name": "Bestia"
+    },
+    {
+     "emoji": "💀",
+     "name": "Leyenda"
+    }
+   ]
+  },
+  {
+   "id": "rewe",
+   "emoji": "🪵",
+   "name": "Cerro del Rewe",
+   "level": 30,
+   "safe": false,
+   "desc": "El rewe de la machi conecta los mundos. Los kalku quieren cortarlo.",
+   "boss": "Piuchén",
+   "grades": [
+    {
+     "emoji": "🔴",
+     "name": "Bestia"
+    },
+    {
+     "emoji": "💀",
+     "name": "Leyenda"
+    }
+   ]
+  },
+  {
+   "id": "valle_llorona",
+   "emoji": "🌙",
+   "name": "Valle de la Llorona",
+   "level": 34,
+   "safe": false,
+   "desc": "Junto al río, de noche, se escucha un llanto que hiela la sangre.",
+   "boss": "La Llorona",
+   "grades": [
+    {
+     "emoji": "🔴",
+     "name": "Bestia"
+    },
+    {
+     "emoji": "💀",
+     "name": "Leyenda"
+    }
+   ]
+  },
+  {
+   "id": "templo_mayor",
+   "emoji": "🛕",
+   "name": "Templo Mayor",
+   "level": 38,
+   "safe": false,
+   "desc": "El corazón de Tenochtitlan. El espejo humeante todavía echa humo.",
+   "boss": "Tezcatlipoca",
+   "grades": [
+    {
+     "emoji": "💀",
+     "name": "Leyenda"
+    },
+    {
+     "emoji": "☄️",
+     "name": "Calamidad"
+    }
+   ]
+  },
+  {
+   "id": "xibalba",
+   "emoji": "🌑",
+   "name": "Xibalbá",
+   "level": 45,
+   "safe": false,
+   "desc": "El inframundo maya. Sus señores juzgan a todo el que baja.",
+   "boss": "Señores de Xibalbá",
+   "grades": [
+    {
+     "emoji": "☄️",
+     "name": "Calamidad"
+    },
+    {
+     "emoji": "💀",
+     "name": "Leyenda"
+    }
+   ]
+  },
+  {
+   "id": "mictlan",
+   "emoji": "💀",
+   "name": "Mictlán, los nueve niveles",
+   "level": 52,
+   "safe": false,
+   "desc": "El reino de los muertos mexica. Cada nivel es peor que el anterior.",
+   "boss": "Mictlantecuhtli",
+   "grades": [
+    {
+     "emoji": "☄️",
+     "name": "Calamidad"
+    },
+    {
+     "emoji": "🌑",
+     "name": "Primordial"
+    }
+   ]
+  },
+  {
+   "id": "camino_sol",
+   "emoji": "☀️",
+   "name": "Camino del Sol",
+   "level": 60,
+   "safe": false,
+   "desc": "El Qhapaq Ñan lleva hasta el mismo Inti. Solo los más fuertes llegan.",
+   "boss": "Inti",
+   "grades": [
+    {
+     "emoji": "🌑",
+     "name": "Primordial"
+    },
+    {
+     "emoji": "☄️",
+     "name": "Calamidad"
+    }
+   ]
+  }
+ ],
+ "creatures": [
+  {
+   "grade": {
+    "id": "4",
+    "emoji": "🟢",
+    "name": "Aparecido"
+   },
+   "creatures": [
+    {
+     "emoji": "👺",
+     "name": "Chaneque travieso",
+     "skills": [
+      "Esconder objetos",
+      "Susto"
+     ]
+    },
+    {
+     "emoji": "🍄",
+     "name": "Duende del monte",
+     "skills": [
+      "Perder el rumbo",
+      "Garrotazo"
+     ]
+    },
+    {
+     "emoji": "🐹",
+     "name": "Cuy bruja",
+     "skills": [
+      "Mordisco maldito",
+      "Chillido"
+     ]
+    },
+    {
+     "emoji": "🦋",
+     "name": "Mariposa negra",
+     "skills": [
+      "Mal presagio",
+      "Polvo de luto"
+     ]
+    }
+   ]
+  },
+  {
+   "grade": {
+    "id": "3",
+    "emoji": "🟡",
+    "name": "Espanto"
+   },
+   "creatures": [
+    {
+     "emoji": "🗿",
+     "name": "Alux guardián",
+     "skills": [
+      "Puño de barro",
+      "No dejar pasar"
+     ]
+    },
+    {
+     "emoji": "🐸",
+     "name": "Sapo del Xolotl",
+     "skills": [
+      "Lengua del inframundo",
+      "Croar a los muertos"
+     ]
+    },
+    {
+     "emoji": "🦎",
+     "name": "Lagartija de obsidiana",
+     "skills": [
+      "Cola de obsidiana",
+      "Escamas filosas"
+     ]
+    },
+    {
+     "emoji": "🦝",
+     "name": "Coatí ladrón",
+     "skills": [
+      "Robar monedas",
+      "Arañazo"
+     ]
+    }
+   ]
+  },
+  {
+   "grade": {
+    "id": "2",
+    "emoji": "🟠",
+    "name": "Asombro"
+   },
+   "creatures": [
+    {
+     "emoji": "🐺",
+     "name": "Cadejo negro",
+     "skills": [
+      "Acecho nocturno",
+      "Aullido espectral"
+     ]
+    },
+    {
+     "emoji": "🦇",
+     "name": "Chupacabras",
+     "skills": [
+      "Chupar la vida",
+      "Salto"
+     ]
+    },
+    {
+     "emoji": "🕯️",
+     "name": "Luz Mala",
+     "skills": [
+      "Fuego fatuo",
+      "Desorientar"
+     ]
+    },
+    {
+     "emoji": "🦉",
+     "name": "Lechuza bruja",
+     "skills": [
+      "Maleficio aéreo",
+      "Canto de mal agüero"
+     ]
+    },
+    {
+     "emoji": "🌳",
+     "name": "Pombero",
+     "skills": [
+      "Silbido",
+      "Robar en la siesta"
+     ]
+    },
+    {
+     "emoji": "🐒",
+     "name": "Mono del Mohán",
+     "skills": [
+      "Burla",
+      "Garrotazo"
+     ]
+    },
+    {
+     "emoji": "🐬",
+     "name": "Boto transformado",
+     "skills": [
+      "Seducir",
+      "Arrastrar al agua"
+     ]
+    },
+    {
+     "emoji": "🌪️",
+     "name": "Saci Pererê",
+     "skills": [
+      "Torbellino",
+      "Patada de una pierna"
+     ]
+    }
+   ]
+  },
+  {
+   "grade": {
+    "id": "1",
+    "emoji": "🔴",
+    "name": "Bestia"
+   },
+   "creatures": [
+    {
+     "emoji": "🐺",
+     "name": "Lobizón",
+     "skills": [
+      "Luna llena",
+      "Desgarrar"
+     ]
+    },
+    {
+     "emoji": "🐴",
+     "name": "Mulánima",
+     "skills": [
+      "Cadenas de fuego",
+      "Arrastre"
+     ]
+    },
+    {
+     "emoji": "🌿",
+     "name": "Madremonte",
+     "skills": [
+      "Cerrar los caminos",
+      "Furia del bosque"
+     ]
+    },
+    {
+     "emoji": "🦵",
+     "name": "Patasola",
+     "skills": [
+      "Cacería en la selva",
+      "Salto mortal"
+     ]
+    },
+    {
+     "emoji": "🎸",
+     "name": "Sombrerón",
+     "skills": [
+      "Guitarra embrujada",
+      "Trenzar"
+     ]
+    },
+    {
+     "emoji": "🎭",
+     "name": "Tunda",
+     "skills": [
+      "Cambiar de forma",
+      "Engaño"
+     ]
+    },
+    {
+     "emoji": "🧙",
+     "name": "Kalku",
+     "skills": [
+      "Maleficio",
+      "Daño mapuche"
+     ]
+    },
+    {
+     "emoji": "⛏️",
+     "name": "Supay menor",
+     "skills": [
+      "Fuego de mina",
+      "Derrumbe"
+     ]
+    }
+   ]
+  },
+  {
+   "grade": {
+    "id": "especial",
+    "emoji": "💀",
+    "name": "Leyenda"
+   },
+   "creatures": [
+    {
+     "emoji": "🦶",
+     "name": "Curupira",
+     "skills": [
+      "Huellas falsas",
+      "Furia del monte"
+     ]
+    },
+    {
+     "emoji": "🐦",
+     "name": "Alicanto",
+     "skills": [
+      "Brillo de oro",
+      "Vuelo dorado"
+     ]
+    },
+    {
+     "emoji": "🦇",
+     "name": "Piuchén",
+     "skills": [
+      "Chupar sangre",
+      "Vuelo nocturno"
+     ]
+    },
+    {
+     "emoji": "🌊",
+     "name": "Cai Cai Vilu",
+     "skills": [
+      "Subir el mar",
+      "Cola de serpiente"
+     ]
+    },
+    {
+     "emoji": "⛰️",
+     "name": "Tren Tren Vilu",
+     "skills": [
+      "Elevar los cerros",
+      "Aplastar"
+     ]
+    },
+    {
+     "emoji": "💀",
+     "name": "Siguanaba",
+     "skills": [
+      "Rostro de calavera",
+      "Volver loco"
+     ]
+    },
+    {
+     "emoji": "🐕",
+     "name": "Cadejo blanco y negro",
+     "skills": [
+      "Luz",
+      "Sombra"
+     ]
+    },
+    {
+     "emoji": "🐊",
+     "name": "Hombre Caimán",
+     "skills": [
+      "Mordida del río",
+      "Coraza"
+     ]
+    },
+    {
+     "emoji": "👝",
+     "name": "Ekeko corrupto",
+     "skills": [
+      "Abundancia invertida",
+      "Monedazo"
+     ]
+    },
+    {
+     "emoji": "🦖",
+     "name": "Cipactli joven",
+     "skills": [
+      "Mil bocas",
+      "Monstruo primordial"
+     ]
+    }
+   ]
+  },
+  {
+   "grade": {
+    "id": "calamidad",
+    "emoji": "☄️",
+    "name": "Calamidad"
+   },
+   "creatures": [
+    {
+     "emoji": "🔥",
+     "name": "Boitatá",
+     "skills": [
+      "Serpiente de fuego",
+      "Rastro ardiente"
+     ]
+    },
+    {
+     "emoji": "🐍",
+     "name": "Yacumama",
+     "skills": [
+      "Ola gigante",
+      "Constricción"
+     ]
+    },
+    {
+     "emoji": "🦍",
+     "name": "Mapinguari",
+     "skills": [
+      "Puño gigante",
+      "Rugido de un ojo"
+     ]
+    },
+    {
+     "emoji": "👰",
+     "name": "La Llorona",
+     "skills": [
+      "¡Ay, mis hijos!",
+      "Lamento"
+     ]
+    },
+    {
+     "emoji": "😈",
+     "name": "El Diablo de la Salamanca",
+     "skills": [
+      "Pacto peligroso",
+      "Fuego de la Salamanca"
+     ]
+    },
+    {
+     "emoji": "👹",
+     "name": "Supay",
+     "skills": [
+      "Infierno minero",
+      "Robar el alma"
+     ]
+    },
+    {
+     "emoji": "🦅",
+     "name": "Cóndor Apu",
+     "skills": [
+      "Picada de la montaña",
+      "Alas del Apu"
+     ]
+    },
+    {
+     "emoji": "🪞",
+     "name": "Tezcatlipoca",
+     "skills": [
+      "Espejo humeante",
+      "Jaguar de la noche"
+     ]
+    },
+    {
+     "emoji": "🐐",
+     "name": "Huay Chivo",
+     "skills": [
+      "Cornada",
+      "Brujería maya"
+     ]
+    },
+    {
+     "emoji": "🐆",
+     "name": "Nahual mayor",
+     "skills": [
+      "Mil formas",
+      "Zarpazo del jaguar"
+     ]
+    }
+   ]
+  },
+  {
+   "grade": {
+    "id": "primordial",
+    "emoji": "🌑",
+    "name": "Primordial"
+   },
+   "creatures": [
+    {
+     "emoji": "💀",
+     "name": "Mictlantecuhtli",
+     "skills": [
+      "Nueve niveles",
+      "Señor de los muertos"
+     ]
+    },
+    {
+     "emoji": "⚖️",
+     "name": "Señores de Xibalbá",
+     "skills": [
+      "Juicio",
+      "Casa de las navajas"
+     ]
+    },
+    {
+     "emoji": "🐉",
+     "name": "Quetzalcóatl",
+     "skills": [
+      "Viento de jade",
+      "Serpiente emplumada"
+     ]
+    },
+    {
+     "emoji": "🐍",
+     "name": "Coatlicue",
+     "skills": [
+      "Falda de serpientes",
+      "Madre de los dioses"
+     ]
+    },
+    {
+     "emoji": "🌀",
+     "name": "Pachakuti",
+     "skills": [
+      "El mundo se da vuelta",
+      "Cataclismo"
+     ]
+    },
+    {
+     "emoji": "☀️",
+     "name": "Inti",
+     "skills": [
+      "Rayo de sol",
+      "Calor del mediodía"
+     ]
+    },
+    {
+     "emoji": "🌽",
+     "name": "Pachamama",
+     "skills": [
+      "Temblor",
+      "Madre tierra"
+     ]
+    },
+    {
+     "emoji": "⛈️",
+     "name": "Tlaloc y Chaac",
+     "skills": [
+      "Rayo de lluvia",
+      "Tormenta doble"
+     ]
+    }
+   ]
+  }
+ ],
+ "relics": [
+  {
+   "id": "macuahuitl",
+   "emoji": "🪓",
+   "name": "Macuahuitl del Sol",
+   "slot": "Arma",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendario"
+   },
+   "desc": "Maza con hojas de obsidiana. Bajo el sol pega todavía más fuerte.",
+   "stats": "+5% daño, +3% crítico, +6% daño de día",
+   "craftOnly": false
+  },
+  {
+   "id": "pluma_quetzal",
+   "emoji": "🪶",
+   "name": "Pluma de Quetzal",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendario"
+   },
+   "desc": "Una pluma sagrada que te aparta de la muerte una vez por combate.",
+   "stats": "+6 vida, 6% esquivar, sobrevive a un golpe letal",
+   "craftOnly": false
+  },
+  {
+   "id": "mascara_funeraria",
+   "emoji": "💀",
+   "name": "Máscara Funeraria",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendario"
+   },
+   "desc": "Máscara de jade para el viaje al Mictlán. Te deja volver una vez.",
+   "stats": "+10 vida, revive una vez con 25% de vida",
+   "craftOnly": false
+  },
+  {
+   "id": "agua_florida",
+   "emoji": "💐",
+   "name": "Agua Florida",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendario"
+   },
+   "desc": "Limpia las energías y te trae de vuelta una vez.",
+   "stats": "25% de limpiarse cada turno, revive una vez con 25% de vida",
+   "craftOnly": false
+  },
+  {
+   "id": "chancleta_mama",
+   "emoji": "🩴",
+   "name": "La Chancleta de Mamá",
+   "slot": "Arma",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendario"
+   },
+   "desc": "Siempre acierta, nunca falla y llega desde lejos. Pega crítico y aterra al rival.",
+   "stats": "+5% daño, +8% crítico, tus golpes no se pueden esquivar, 15% debilitar al golpear (-20% daño)",
+   "craftOnly": false
+  },
+  {
+   "id": "bendicion_mama",
+   "emoji": "💖",
+   "name": "La Bendición de Mamá",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendario"
+   },
+   "desc": "Con la bendición de mamá, todo sale mejor.",
+   "stats": "+4% daño, +8 vida, empezás con +8⚡, +3% crítico, 3% esquivar",
+   "craftOnly": false
+  },
+  {
+   "id": "guitarra_sombreron",
+   "emoji": "🎸",
+   "name": "Guitarra del Sombrerón",
+   "slot": "Arma",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "desc": "Su música hechizada duerme a quien la escucha.",
+   "stats": "+3% daño, +4 vida, 10% aturdir al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "poncho_salamanca",
+   "emoji": "🧥",
+   "name": "Poncho de Salamanca",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "desc": "Tejido en la Salamanca: frena los dones, pero se cobra tu vida de a poco.",
+   "stats": "+8 vida, -25% daño de dones, pierde 2 vida por turno",
+   "craftOnly": false
+  },
+  {
+   "id": "lampara_luz_mala",
+   "emoji": "🏮",
+   "name": "Lámpara de Luz Mala",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "desc": "Un fuego fatuo encerrado: desorienta al enemigo y te vuelve difícil de seguir.",
+   "stats": "8% esquivar, 15% encandilar al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "cantaro_cenote",
+   "emoji": "⚱️",
+   "name": "Cántaro del Cenote",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "desc": "Agua sagrada del cenote que sella los poderes del enemigo.",
+   "stats": "empezás con +8⚡, 15% sellar al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "rosario_curandero",
+   "emoji": "📿",
+   "name": "Rosario del Curandero",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "desc": "Cada cuenta es un rezo. Te va curando de a poco.",
+   "stats": "+4 vida, +4 vida por turno",
+   "craftOnly": false
+  },
+  {
+   "id": "machete_abuelo",
+   "emoji": "🔪",
+   "name": "Machete del Abuelo",
+   "slot": "Arma",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "desc": "Oxidado, con el mango atado con alambre... pero nunca falló. Mejora con cada caza ganada.",
+   "stats": "+3% daño, +4% crítico, +4% vs criaturas, +1% daño cada 50 cazas ganadas (máx +6%)",
+   "craftOnly": false
+  },
+  {
+   "id": "bombo_leguero",
+   "emoji": "🥁",
+   "name": "Bombo Legüero",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "desc": "Se escucha a una legua: su ritmo te hace pegar más fuerte.",
+   "stats": "+5% daño, empezás con +8⚡",
+   "craftOnly": false
+  },
+  {
+   "id": "huipil_bordado",
+   "emoji": "👚",
+   "name": "Huipil Bordado",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "desc": "Cada bordado es una protección contra los maleficios.",
+   "stats": "+6 vida, -15% daño de dones, 20% de limpiarse cada turno",
+   "craftOnly": false
+  },
+  {
+   "id": "escapulario",
+   "emoji": "✝️",
+   "name": "Escapulario",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "desc": "Te salva de un golpe fatal una vez por combate.",
+   "stats": "+4 vida, sobrevive a un golpe letal",
+   "craftOnly": false
+  },
+  {
+   "id": "vela_siete_colores",
+   "emoji": "🕯️",
+   "name": "Vela de Siete Colores",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "desc": "Potencia tu gran ritual: tu ataque definitivo pega más.",
+   "stats": "empezás con +8⚡, +20% daño de Gran Conjuro",
+   "craftOnly": false
+  },
+  {
+   "id": "palo_santo",
+   "emoji": "🌳",
+   "name": "Palo Santo",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "desc": "Purifica el lugar: los enemigos fuertes pierden poder.",
+   "stats": "+10% vs criaturas, -10% daño de dones",
+   "craftOnly": false
+  },
+  {
+   "id": "cinturon_papa",
+   "emoji": "➰",
+   "name": "Cinturón del Papá",
+   "slot": "Arma",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "desc": "Golpe de advertencia: el rival pierde fuerza solo de verlo.",
+   "stats": "+3% daño, 20% debilitar al golpear (-25% daño)",
+   "craftOnly": false
+  },
+  {
+   "id": "zapatilla_voladora",
+   "emoji": "👞",
+   "name": "Zapatilla Voladora",
+   "slot": "Arma",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "desc": "La chancleta en versión rápida: pega menos, pero pega primero.",
+   "stats": "+2% daño, +6% crítico, +1⚡ por turno",
+   "craftOnly": false
+  },
+  {
+   "id": "sarten_abuela",
+   "emoji": "🥘",
+   "name": "Sartén de Hierro de la Abuela",
+   "slot": "Arma",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "desc": "Bloquea el golpe y lo devuelve.",
+   "stats": "+1% daño, escudo inicial 10, devuelve 12% del daño",
+   "craftOnly": false
+  },
+  {
+   "id": "olla_presion",
+   "emoji": "♨️",
+   "name": "Olla de Presión",
+   "slot": "Arma",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "desc": "Vapor hirviendo... con riesgo de que te explote a vos.",
+   "stats": "+7% daño, pierde 2 vida por turno, 12% quemar al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "mirada_mama",
+   "emoji": "😠",
+   "name": "La Mirada de Mamá",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "desc": "Paraliza al rival de miedo a quedar castigado.",
+   "stats": "+2% crítico, 14% aturdir al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "cuando_llegue_padre",
+   "emoji": "🚪",
+   "name": "\"Cuando Llegue tu Padre\"",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "desc": "Una amenaza que se cumple: en dos turnos llega el refuerzo.",
+   "stats": "15% de que llegue un golpe de 14 en 2 turno(s)",
+   "craftOnly": false
+  },
+  {
+   "id": "ya_vas_a_ver",
+   "emoji": "😤",
+   "name": "El \"Ya Vas a Ver\"",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "desc": "Anuncia un golpe enorme que llega al turno siguiente.",
+   "stats": "12% de que llegue un golpe de 20 en 1 turno(s)",
+   "craftOnly": false
+  },
+  {
+   "id": "caldo_gallina",
+   "emoji": "🐔",
+   "name": "Caldo de Gallina",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Épico"
+   },
+   "desc": "Te levanta aunque estés caído.",
+   "stats": "revive una vez con 25% de vida",
+   "craftOnly": false
+  },
+  {
+   "id": "tumi",
+   "emoji": "🌙",
+   "name": "Tumi Ceremonial",
+   "slot": "Arma",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Cuchillo de hoja de media luna que rompe escudos y barreras.",
+   "stats": "+2% daño, ignora bloqueo y escudo",
+   "craftOnly": false
+  },
+  {
+   "id": "facon_gil",
+   "emoji": "🗡️",
+   "name": "Facón del Gauchito Gil",
+   "slot": "Arma",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Corte rápido y certero, de los que no avisan.",
+   "stats": "+3% daño, +5% crítico",
+   "craftOnly": false
+  },
+  {
+   "id": "cadena_mulanima",
+   "emoji": "⛓️",
+   "name": "Cadena de la Mulánima",
+   "slot": "Arma",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Cadena al rojo vivo que deja al rival ardiendo.",
+   "stats": "+2% daño, 14% quemar al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "bolsa_ekeko",
+   "emoji": "👝",
+   "name": "Bolsa del Ekeko",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "El dios de la abundancia te llena los bolsillos.",
+   "stats": "+4 vida, +6% botín",
+   "craftOnly": false
+  },
+  {
+   "id": "collar_jade",
+   "emoji": "🟢",
+   "name": "Collar de Jade",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "La piedra verde protege el cuerpo y aviva la energía.",
+   "stats": "+8 vida, empezás con +12⚡",
+   "craftOnly": false
+  },
+  {
+   "id": "muiraquita",
+   "emoji": "🐸",
+   "name": "Amuleto de Muiraquitã",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Ranita de piedra verde que protege del fuego, del veneno y del agua.",
+   "stats": "+6 vida, -50% daño de quemaduras",
+   "craftOnly": false
+  },
+  {
+   "id": "amuleto_fuego",
+   "emoji": "♨️",
+   "name": "Amuleto de Fuego",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Una escama del Boitatá: no te quema y quema a quien te toca.",
+   "stats": "-30% daño de quemaduras, 10% quemar al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "cuchillo_monte",
+   "emoji": "🗡️",
+   "name": "Cuchillo de Monte",
+   "slot": "Arma",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Hecho para abrirse paso en el bosque y la selva. Corta mejor a lo que vive ahí.",
+   "stats": "+2% daño, +8% vs criaturas",
+   "craftOnly": false
+  },
+  {
+   "id": "hacha_lenador",
+   "emoji": "🪓",
+   "name": "Hacha del Leñador",
+   "slot": "Arma",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Golpe lento y pesado que parte defensas como si fueran leña.",
+   "stats": "+3% daño, ignora bloqueo y escudo",
+   "craftOnly": false
+  },
+  {
+   "id": "rebenque_arriero",
+   "emoji": "🏇",
+   "name": "Rebenque del Arriero",
+   "slot": "Arma",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Golpe rápido que te apura y aturde al rival.",
+   "stats": "+2⚡ por turno, 7% aturdir al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "lazo_gaucho",
+   "emoji": "🪢",
+   "name": "Lazo de Gaucho",
+   "slot": "Arma",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Atrapa al rival y lo deja inmovilizado un turno.",
+   "stats": "+1% daño, 11% aturdir al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "cerbatana_cazador",
+   "emoji": "🎯",
+   "name": "Cerbatana del Cazador",
+   "slot": "Arma",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Dardos con veneno o con sueño: nunca sabés cuál te toca.",
+   "stats": "+1% daño, 12% de envenenar o aturdir al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "garrote_algarrobo",
+   "emoji": "🪵",
+   "name": "Garrote de Algarrobo",
+   "slot": "Arma",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Madera dura que aturde sin gastar energía.",
+   "stats": "+2% daño, empezás con +10⚡, 6% aturdir al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "comal_barro",
+   "emoji": "🍳",
+   "name": "Comal de Barro",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Comida caliente que te repone en plena pelea.",
+   "stats": "+4 vida, +3 vida por turno",
+   "craftOnly": false
+  },
+  {
+   "id": "mate_cebado",
+   "emoji": "🧉",
+   "name": "Mate Cebado",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Sube la concentración: más golpes críticos.",
+   "stats": "empezás con +6⚡, +6% crítico",
+   "craftOnly": false
+  },
+  {
+   "id": "bombilla_plata",
+   "emoji": "🥢",
+   "name": "Bombilla de Plata",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "La plata limpia el mate y de paso te limpia los males.",
+   "stats": "+2% crítico, 30% de limpiarse cada turno",
+   "craftOnly": false
+  },
+  {
+   "id": "olla_abuelo",
+   "emoji": "🍲",
+   "name": "Olla del Abuelo",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Un guiso que da vida y resistencia.",
+   "stats": "+10 vida, -20% daño de quemaduras",
+   "craftOnly": false
+  },
+  {
+   "id": "charango",
+   "emoji": "🪕",
+   "name": "Charango",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Música andina que te vuelve más rápido.",
+   "stats": "4% esquivar, +2⚡ por turno",
+   "craftOnly": false
+  },
+  {
+   "id": "quena",
+   "emoji": "🪈",
+   "name": "Quena",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Su sonido calma al rival y le baja el ataque.",
+   "stats": "+3 vida, 15% debilitar al golpear (-20% daño)",
+   "craftOnly": false
+  },
+  {
+   "id": "ocarina_barro",
+   "emoji": "🏺",
+   "name": "Ocarina de Barro",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Su canto atrae a los espíritus: más chance de que se te una uno al ganar.",
+   "stats": "+1 vida por turno, +50% chance de nahual al cazar",
+   "craftOnly": false
+  },
+  {
+   "id": "guitarra_criolla",
+   "emoji": "🎸",
+   "name": "Guitarra Criolla",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Una canción que alivia el cansancio.",
+   "stats": "empezás con +5⚡, +3 vida por turno",
+   "craftOnly": false
+  },
+  {
+   "id": "poncho_abuelo",
+   "emoji": "🧣",
+   "name": "Poncho del Abuelo",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Abriga del frío y del agua: aguantás mejor los daños que siguen.",
+   "stats": "+8 vida, -35% daño de quemaduras",
+   "craftOnly": false
+  },
+  {
+   "id": "sombrero_ala",
+   "emoji": "🤠",
+   "name": "Sombrero de Ala Ancha",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Protege del sol y te ayuda a esquivar.",
+   "stats": "+3 vida, 6% esquivar",
+   "craftOnly": false
+  },
+  {
+   "id": "chuspa_coca",
+   "emoji": "🌿",
+   "name": "Chuspa de Coca",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Bolsita tejida que da energía y resistencia.",
+   "stats": "+5 vida, empezás con +8⚡, +1⚡ por turno",
+   "craftOnly": false
+  },
+  {
+   "id": "rosario_abuela",
+   "emoji": "📿",
+   "name": "Rosario de la Abuela",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Protege de los espíritus y te cura un poco cada turno.",
+   "stats": "+2 vida por turno, -10% daño de dones",
+   "craftOnly": false
+  },
+  {
+   "id": "herradura_vieja",
+   "emoji": "🐴",
+   "name": "Herradura Vieja",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Atrae la buena suerte y desvía maleficios.",
+   "stats": "15% de limpiarse cada turno, +4% botín",
+   "craftOnly": false
+  },
+  {
+   "id": "azabache",
+   "emoji": "⚫",
+   "name": "Azabache",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Protege del mal de ojo y de los poderes del rival.",
+   "stats": "-8% daño de dones, 25% de limpiarse cada turno",
+   "craftOnly": false
+  },
+  {
+   "id": "sahumerio_copal",
+   "emoji": "💨",
+   "name": "Sahumerio de Copal",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Limpia el ambiente y aleja espíritus.",
+   "stats": "+4% vs criaturas, 30% de limpiarse cada turno",
+   "craftOnly": false
+  },
+  {
+   "id": "palo_amasar",
+   "emoji": "🥖",
+   "name": "Palo de Amasar",
+   "slot": "Arma",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Daño alto cuerpo a cuerpo, con chance de aturdir.",
+   "stats": "+4% daño, 7% aturdir al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "cucharon_abuela",
+   "emoji": "🍜",
+   "name": "Cucharón de la Abuela",
+   "slot": "Arma",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Cada golpe viene con caldito: te cura un poco.",
+   "stats": "+2% daño, roba 6% vida",
+   "craftOnly": false
+  },
+  {
+   "id": "escoba_casa",
+   "emoji": "🧹",
+   "name": "Escoba de la Casa",
+   "slot": "Arma",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Barre al rival y lo empuja para atrás.",
+   "stats": "+2% daño, 4% esquivar, 6% aturdir al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "manguera_vecino",
+   "emoji": "🚿",
+   "name": "Manguera del Vecino",
+   "slot": "Arma",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Agua para todos lados: moja al rival y apaga tus fuegos.",
+   "stats": "+3% daño, -30% daño de quemaduras",
+   "craftOnly": false
+  },
+  {
+   "id": "grito_ven_aca",
+   "emoji": "📣",
+   "name": "El Grito de \"¡Vení acá!\"",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Lo atrae hacia vos y lo deja sin defensa.",
+   "stats": "+2% daño, ignora bloqueo y escudo",
+   "craftOnly": false
+  },
+  {
+   "id": "nombre_completo",
+   "emoji": "📛",
+   "name": "El Nombre Completo",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Cuando lo escucha con nombre completo, el rival pierde el turno.",
+   "stats": "10% aturdir al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "yo_a_tu_edad",
+   "emoji": "👴",
+   "name": "\"Yo a Tu Edad...\"",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Un sermón que aturde al rival o le baja la moral.",
+   "stats": "12% de aturdir o debilitar al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "vicks",
+   "emoji": "🫙",
+   "name": "Vicks en el Pecho",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Baja la fiebre: aguantás mejor quemaduras y venenos.",
+   "stats": "20% de limpiarse cada turno, -40% daño de quemaduras",
+   "craftOnly": false
+  },
+  {
+   "id": "mate_caliente",
+   "emoji": "☕",
+   "name": "Mate Caliente",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Sube la concentración.",
+   "stats": "empezás con +5⚡, +5% crítico",
+   "craftOnly": false
+  },
+  {
+   "id": "foto_familia",
+   "emoji": "👪",
+   "name": "Foto de Familia",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Protege de la tristeza y del miedo.",
+   "stats": "+6 vida, 20% de limpiarse cada turno",
+   "craftOnly": false
+  },
+  {
+   "id": "billetera_papa",
+   "emoji": "👛",
+   "name": "Billetera del Papá",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Trae monedas... cuesta que las suelte, pero las suelta.",
+   "stats": "+12% pesos al cazar",
+   "craftOnly": false
+  },
+  {
+   "id": "remedio_secreto",
+   "emoji": "🧪",
+   "name": "Remedio Casero Secreto",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Raro"
+   },
+   "desc": "Nadie sabe qué tiene: puede curarte todo o tener un sabor horrible.",
+   "stats": "efecto sorpresa en cada pelea",
+   "craftOnly": false
+  },
+  {
+   "id": "boleadoras",
+   "emoji": "🪢",
+   "name": "Boleadoras de Plata",
+   "slot": "Arma",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Se enredan en las patas del rival y lo dejan quieto.",
+   "stats": "+1% daño, 6% aturdir al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "machete_curupira",
+   "emoji": "🔪",
+   "name": "Machete del Curupira",
+   "slot": "Arma",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Corta los rastros: el rival no sabe por dónde venís.",
+   "stats": "+2% daño, 12% encandilar al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "piedra_ver",
+   "emoji": "👁️",
+   "name": "Piedra de Ver",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Mirando a través de ella se ven las debilidades del rival.",
+   "stats": "+4% crítico",
+   "craftOnly": false
+  },
+  {
+   "id": "huevo_limpia",
+   "emoji": "🫧",
+   "name": "Huevo de Limpia",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Se pasa por el cuerpo y se lleva el mal de ojo.",
+   "stats": "+3 vida, 25% de limpiarse cada turno",
+   "craftOnly": false
+  },
+  {
+   "id": "apacheta",
+   "emoji": "🪨",
+   "name": "Apacheta Portátil",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Una pila de piedras de ofrenda que te protege en el camino.",
+   "stats": "escudo inicial 8",
+   "craftOnly": false
+  },
+  {
+   "id": "cuenco_chicha",
+   "emoji": "🥣",
+   "name": "Cuenco de Chicha",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Chicha de maíz que repone la energía turno a turno.",
+   "stats": "empezás con +10⚡, +2⚡ por turno",
+   "craftOnly": false
+  },
+  {
+   "id": "pico_minero",
+   "emoji": "⛏️",
+   "name": "Pico del Minero",
+   "slot": "Arma",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Donde golpea, algo se desprende: más materiales al ganar.",
+   "stats": "+1% daño, +50% materiales al cazar",
+   "craftOnly": false
+  },
+  {
+   "id": "azada_abuela",
+   "emoji": "🌱",
+   "name": "Azada de la Abuela",
+   "slot": "Arma",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "No pega fuerte, pero cada golpe te devuelve un poco de vida.",
+   "stats": "+3 vida, roba 6% vida",
+   "craftOnly": false
+  },
+  {
+   "id": "chicote_cuero",
+   "emoji": "🩸",
+   "name": "Chicote de Cuero",
+   "slot": "Arma",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Latigazo que deja un sangrado leve.",
+   "stats": "+1% daño, 12% quemar al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "honda_pastor",
+   "emoji": "🪨",
+   "name": "Honda de Pastor",
+   "slot": "Arma",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Piedras a distancia: barato, rápido y siempre a mano.",
+   "stats": "+2% daño, empezás con +6⚡",
+   "craftOnly": false
+  },
+  {
+   "id": "palo_ciego",
+   "emoji": "🦯",
+   "name": "Palo de Ciego",
+   "slot": "Arma",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Bastón simple que bloquea y devuelve el golpe.",
+   "stats": "escudo inicial 6, devuelve 8% del daño",
+   "craftOnly": false
+  },
+  {
+   "id": "cuchillo_abuela",
+   "emoji": "🔪",
+   "name": "Cuchillo de la Abuela",
+   "slot": "Arma",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Corte ágil y preciso, ideal para sacar materiales.",
+   "stats": "+2% daño, +3% crítico, +15% materiales al cazar",
+   "craftOnly": false
+  },
+  {
+   "id": "cuchara_palo",
+   "emoji": "🥄",
+   "name": "Cuchara de Palo de la Abuela",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Te cura un poco cada turno (y ojo con portarte mal).",
+   "stats": "+2 vida por turno",
+   "craftOnly": false
+  },
+  {
+   "id": "molinillo_chocolate",
+   "emoji": "🍫",
+   "name": "Molinillo de Chocolate",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Bate la energía y te la devuelve de a poco.",
+   "stats": "empezás con +4⚡, +2⚡ por turno",
+   "craftOnly": false
+  },
+  {
+   "id": "molcajete",
+   "emoji": "🗿",
+   "name": "Molcajete Heredado",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Tritura lo que encontrás: sacás más materiales.",
+   "stats": "+2 vida, +40% materiales al cazar",
+   "craftOnly": false
+  },
+  {
+   "id": "metate_piedra",
+   "emoji": "🧱",
+   "name": "Metate de Piedra",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Muele materiales comunes hasta volverlos útiles.",
+   "stats": "escudo inicial 4, +30% materiales al cazar",
+   "craftOnly": false
+  },
+  {
+   "id": "zampona",
+   "emoji": "🎶",
+   "name": "Zampoña",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Un soplido que desorienta al rival.",
+   "stats": "10% encandilar al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "maracas",
+   "emoji": "🪇",
+   "name": "Maracas",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Su ruido ahuyenta a los enemigos más débiles.",
+   "stats": "+5% vs criaturas, 2% esquivar",
+   "craftOnly": false
+  },
+  {
+   "id": "sonajero_ritual",
+   "emoji": "🔔",
+   "name": "Sonajero Ritual",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Aleja espíritus y maleficios leves.",
+   "stats": "20% de limpiarse cada turno, -15% daño de quemaduras",
+   "craftOnly": false
+  },
+  {
+   "id": "rebozo_abuela",
+   "emoji": "🧶",
+   "name": "Rebozo de la Abuela",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Abriga y te cubre de los golpes.",
+   "stats": "+6 vida, escudo inicial 4",
+   "craftOnly": false
+  },
+  {
+   "id": "alpargatas",
+   "emoji": "👟",
+   "name": "Alpargatas Gastadas",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Hicieron mil caminos: pies livianos para esquivar.",
+   "stats": "4% esquivar",
+   "craftOnly": false
+  },
+  {
+   "id": "faja_tejida",
+   "emoji": "🎗️",
+   "name": "Faja Tejida",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Protege la cintura y te da más vida.",
+   "stats": "+10 vida",
+   "craftOnly": false
+  },
+  {
+   "id": "estampita_santo",
+   "emoji": "🖼️",
+   "name": "Estampita del Santo",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Trae suerte: mejora el botín.",
+   "stats": "+5% botín",
+   "craftOnly": false
+  },
+  {
+   "id": "ojo_venado",
+   "emoji": "🌰",
+   "name": "Ojo de Venado",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Aleja la envidia y suma defensa.",
+   "stats": "+3 vida, escudo inicial 6",
+   "craftOnly": false
+  },
+  {
+   "id": "ramito_ruda",
+   "emoji": "☘️",
+   "name": "Ramito de Ruda",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Quita el mal de ojo y los miedos.",
+   "stats": "30% de limpiarse cada turno",
+   "craftOnly": false
+  },
+  {
+   "id": "plumero",
+   "emoji": "🪶",
+   "name": "Plumero de Limpieza",
+   "slot": "Arma",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Quita los males y el polvo maldito.",
+   "stats": "+1% daño, 30% de limpiarse cada turno",
+   "craftOnly": false
+  },
+  {
+   "id": "trapeador_mojado",
+   "emoji": "🧽",
+   "name": "Trapeador Mojado",
+   "slot": "Arma",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "El rival se resbala y falla sus golpes.",
+   "stats": "+1% daño, 12% encandilar al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "suspiro_resignado",
+   "emoji": "😮‍💨",
+   "name": "El Suspiro Resignado",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Respira hondo y recupera energía.",
+   "stats": "+3⚡ por turno",
+   "craftOnly": false
+  },
+  {
+   "id": "sopita_pollo",
+   "emoji": "🥣",
+   "name": "Sopita de Pollo",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Cura y quita los males.",
+   "stats": "+2 vida por turno, 25% de limpiarse cada turno",
+   "craftOnly": false
+  },
+  {
+   "id": "te_manzanilla",
+   "emoji": "🍵",
+   "name": "Té de Manzanilla",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Calma y recupera energía.",
+   "stats": "10% de limpiarse cada turno, +2⚡ por turno",
+   "craftOnly": false
+  },
+  {
+   "id": "pomada_abuela",
+   "emoji": "🧴",
+   "name": "Pomada de la Abuela",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Cura las heridas leves de golpe.",
+   "stats": "+8 vida",
+   "craftOnly": false
+  },
+  {
+   "id": "sana_sana",
+   "emoji": "🐸",
+   "name": "Sana Sana Colita de Rana",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Si no sana hoy, sanará mañana: te curás un poco cada turno.",
+   "stats": "+3 vida por turno",
+   "craftOnly": false
+  },
+  {
+   "id": "tupper_eterno",
+   "emoji": "🥡",
+   "name": "Tupper Eterno",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Guarda todo: te llevás más materiales.",
+   "stats": "+3 vida, +25% materiales al cazar",
+   "craftOnly": false
+  },
+  {
+   "id": "radio_abuela",
+   "emoji": "📻",
+   "name": "Radio de la Abuela",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Música que levanta el ánimo.",
+   "stats": "+2% daño, +1⚡ por turno",
+   "craftOnly": false
+  },
+  {
+   "id": "telenovela",
+   "emoji": "📺",
+   "name": "Telenovela de las 3",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Distrae al rival y lo deja quieto un turno.",
+   "stats": "10% aturdir al golpear",
+   "craftOnly": false
+  },
+  {
+   "id": "rosario_espejo",
+   "emoji": "🚗",
+   "name": "Rosario Colgado del Espejo",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Protege en los viajes: recibís un poco menos de daño de poderes.",
+   "stats": "+5 vida, -6% daño de dones",
+   "craftOnly": false
+  },
+  {
+   "id": "llavero",
+   "emoji": "🔑",
+   "name": "Llavero con Todas las Llaves",
+   "slot": "Accesorio",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Común"
+   },
+   "desc": "Abre cualquier cofre (y suena por toda la casa).",
+   "stats": "+6% botín",
+   "craftOnly": false
+  }
+ ],
+ "ranks": [
+  {
+   "emoji": "🟢",
+   "name": "Aprendiz",
+   "level": 1,
+   "desc": "Recién llegados a lo del Tata. Todavía confunden la ruda con el perejil."
+  },
+  {
+   "emoji": "🟡",
+   "name": "Rastreador",
+   "level": 3,
+   "desc": "Ya saben seguir huellas y curar el empacho."
+  },
+  {
+   "emoji": "🟠",
+   "name": "Baqueano",
+   "level": 6,
+   "desc": "Conocen el monte como la palma de su mano."
+  },
+  {
+   "emoji": "🔵",
+   "name": "Curandero",
+   "level": 9,
+   "desc": "Pueden salir solos al monte de noche."
+  },
+  {
+   "emoji": "🟣",
+   "name": "Curandero Mayor",
+   "level": 12,
+   "desc": "En promoción: tienen que vencer solos a una criatura Bestia."
+  },
+  {
+   "emoji": "🔴",
+   "name": "Sabio del Monte",
+   "level": 15,
+   "desc": "Lo más alto por la vía normal: el Pombero los respeta."
+  },
+  {
+   "emoji": "🔥",
+   "name": "Maestro Curandero",
+   "level": 18,
+   "desc": "Los buscan de pueblos lejanos para que curen."
+  },
+  {
+   "emoji": "💀",
+   "name": "Leyenda Viva",
+   "level": 20,
+   "desc": "Hablan de igual a igual con los espíritus."
+  },
+  {
+   "emoji": "🌌",
+   "name": "Rastreador de Élite",
+   "level": 30,
+   "desc": "Más allá de las leyendas. Muy pocos llegan."
+  },
+  {
+   "emoji": "☀️",
+   "name": "Rastreador del Siglo",
+   "level": 40,
+   "desc": "Aparece uno cada cien años."
+  },
+  {
+   "emoji": "👑",
+   "name": "El Más Fuerte",
+   "level": 50,
+   "desc": "\"Le ganaste a Supay con todas sus almas. Ahora sí, m'hijo: sos el más fuerte.\" — el Tata"
+  }
+ ]
+}

@@ -1,0 +1,1400 @@
+{
+ "categories": [
+  {
+   "id": "inicio",
+   "emoji": "🚀",
+   "name": "Primeros pasos",
+   "desc": "Si recién llegás: hacé el **tutorial**, tirá la ruleta y mirá tu perfil. Las misiones diarias te dicen qué hacer cada día.",
+   "commands": [
+    {
+     "name": "tutorial",
+     "also": null,
+     "desc": "Aprendé a jugar: ruleta, entrenamiento, duelos y grandes conjuros",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "tuto",
+      "guia"
+     ],
+     "mod": false
+    },
+    {
+     "name": "perfil",
+     "also": "profile",
+     "desc": "Muestra tu perfil de rastreador (o el de otro)",
+     "usage": "[usuario]",
+     "options": [
+      {
+       "name": "usuario",
+       "desc": "De quién ver el perfil",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "mi",
+      "p",
+      "yo"
+     ],
+     "mod": false
+    },
+    {
+     "name": "tiempos",
+     "also": "cooldowns",
+     "desc": "Mirá cuánto te falta para entrenar, cazar, trabajar, el diario y votar",
+     "usage": "[usuario]",
+     "options": [
+      {
+       "name": "usuario",
+       "desc": "De quién ver los tiempos",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "cd",
+      "cds",
+      "cooldown",
+      "cooldowns",
+      "tiempo"
+     ],
+     "mod": false
+    },
+    {
+     "name": "misiones",
+     "also": "quests",
+     "desc": "Tus 3 misiones diarias y su progreso",
+     "usage": "[usuario]",
+     "options": [
+      {
+       "name": "usuario",
+       "desc": "De quién ver las misiones",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "m",
+      "mis",
+      "quests"
+     ],
+     "mod": false
+    },
+    {
+     "name": "novedades",
+     "also": "news",
+     "desc": "Mirá qué hay de nuevo en la última actualización del bot",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "nov",
+      "updates",
+      "news"
+     ],
+     "mod": false
+    },
+    {
+     "name": "premium",
+     "also": null,
+     "desc": "Mirá tu premium y el del servidor, los beneficios y cómo conseguirlo",
+     "usage": "[accion] [usuario] [duracion] [servidor]",
+     "options": [
+      {
+       "name": "accion",
+       "desc": "ver (por defecto) · dar/quitar/lista (solo dueños del bot)",
+       "required": false,
+       "choices": [
+        "ver",
+        "dar (dueños del bot)",
+        "quitar (dueños del bot)",
+        "lista (dueños del bot)"
+       ]
+      },
+      {
+       "name": "usuario",
+       "desc": "A quién (dar/quitar)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "duracion",
+       "desc": "30d, 90d, 1a o perma",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "servidor",
+       "desc": "ID del servidor (o \"aca\") para premium de servidor",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "vip",
+      "padrino"
+     ],
+     "mod": false
+    },
+    {
+     "name": "votar",
+     "also": "vote",
+     "desc": "Votá por el Tata en las páginas de bots y cobrá tu premio",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "vt",
+      "voto",
+      "votos"
+     ],
+     "mod": false
+    },
+    {
+     "name": "help",
+     "also": null,
+     "desc": "Ayuda por categorías, o de un comando en particular",
+     "usage": "[tema]",
+     "options": [
+      {
+       "name": "tema",
+       "desc": "Categoría o comando, ej: nahuales, torre, ruleta",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "h",
+      "ayuda",
+      "comandos"
+     ],
+     "mod": false
+    }
+   ]
+  },
+  {
+   "id": "tecnica",
+   "emoji": "🎰",
+   "name": "Don",
+   "desc": "Tu don define cómo peleás. La primera tirada de la **ruleta** es gratis y después cuesta 🔴 huayruros (con 10 podés tirar x10 y elegir). Los **pactos** te dan poder a cambio de una desventaja y, desde el Nv 50, **reencarnar** te da bonus permanentes.",
+   "commands": [
+    {
+     "name": "ruleta",
+     "also": "spin",
+     "desc": "Tirá la ruleta para obtener tu don (gratis la primera vez, luego 1 🔴)",
+     "usage": "[tiradas]",
+     "options": [
+      {
+       "name": "tiradas",
+       "desc": "Cuántas tiradas (x10: 10 🔴, elegís con cuál quedarte)",
+       "required": false,
+       "choices": [
+        "1 tirada",
+        "10 tiradas (elegís una)"
+       ]
+      }
+     ],
+     "aliases": [
+      "r",
+      "girar"
+     ],
+     "mod": false
+    },
+    {
+     "name": "probabilidades",
+     "also": "odds",
+     "desc": "Mirá qué tan probable es que te salga cada don en la ruleta",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "prob",
+      "chances"
+     ],
+     "mod": false
+    },
+    {
+     "name": "aprender",
+     "also": "learn",
+     "desc": "Usá un pergamino de don (lo sueltan los jefes de zona) para cambiar tu don",
+     "usage": "[don]",
+     "options": [
+      {
+       "name": "don",
+       "desc": "Qué pergamino usar",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "apr",
+      "pergamino"
+     ],
+     "mod": false
+    },
+    {
+     "name": "pacto",
+     "also": "pact",
+     "desc": "Pactos vinculantes: una desventaja a cambio de poder (sin nombre: ver la lista)",
+     "usage": "[pacto]",
+     "options": [
+      {
+       "name": "pacto",
+       "desc": "Qué pacto firmar",
+       "required": false,
+       "choices": [
+        "🩸 Cuerpo Frágil",
+        "⚔️ Sin Guardia",
+        "🧬 Juramento de Fuerza",
+        "💰 Codicia",
+        "📚 Estudio",
+        "🧛 Pacto de Sangre",
+        "🗡️ Verdugo",
+        "🎲 Todo o Nada"
+       ]
+      }
+     ],
+     "aliases": [
+      "pc",
+      "pactos"
+     ],
+     "mod": false
+    },
+    {
+     "name": "romper-pacto",
+     "also": "break-pact",
+     "desc": "Rompé tu pacto vinculante (no podrás firmar otro por un tiempo)",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "rp"
+     ],
+     "mod": false
+    },
+    {
+     "name": "reencarnar",
+     "also": "reincarnate",
+     "desc": "Desde el Nv 50: volvé al Nv 1 a cambio de un bonus permanente de daño y XP",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "rc",
+      "reencarnacion"
+     ],
+     "mod": false
+    }
+   ]
+  },
+  {
+   "id": "actividades",
+   "emoji": "🥋",
+   "name": "Actividades",
+   "desc": "Lo que hacés cada rato para subir de nivel y ganar pesos. Cada actividad tiene su tiempo de espera (mirálos con **tiempos**). Las zonas más peligrosas pagan más al cazar y al trabajar.",
+   "commands": [
+    {
+     "name": "entrenar",
+     "also": "train",
+     "desc": "Entrená para ganar XP (cada 15 minutos)",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "e",
+      "ent"
+     ],
+     "mod": false
+    },
+    {
+     "name": "diario",
+     "also": "daily",
+     "desc": "Reclamá tu huayruro diario (racha de 7 días = bonus)",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "d",
+      "daily"
+     ],
+     "mod": false
+    },
+    {
+     "name": "trabajar",
+     "also": "work",
+     "desc": "Trabajá como rastreador para ganar pesos (cada 30 minutos)",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "t",
+      "tr"
+     ],
+     "mod": false
+    },
+    {
+     "name": "cazar",
+     "also": "hunt",
+     "desc": "Cazá una criatura en tu zona actual (cada 5 minutos)",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "c",
+      "caza"
+     ],
+     "mod": false
+    },
+    {
+     "name": "zonas",
+     "also": "zones",
+     "desc": "Mirá las zonas del mapa y cuáles tenés desbloqueadas",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "z",
+      "mapa"
+     ],
+     "mod": false
+    },
+    {
+     "name": "viajar",
+     "also": "travel",
+     "desc": "Viajá a otra zona (cambia dónde cazás y trabajás)",
+     "usage": "<zona>",
+     "options": [
+      {
+       "name": "zona",
+       "desc": "A dónde ir",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "v",
+      "ir"
+     ],
+     "mod": false
+    }
+   ]
+  },
+  {
+   "id": "combate",
+   "emoji": "⚔️",
+   "name": "Combate y eventos",
+   "desc": "Retá a otros (o a Supay) a **duelo**, subí la **torre** piso por piso y sumate a las criaturas salvajes y raids que aparecen en el chat. Los **rangos** y el **top** muestran quién es el más fuerte.",
+   "commands": [
+    {
+     "name": "duelo",
+     "also": "duel",
+     "desc": "Retá a alguien a un duelo con tu don (sin oponente: peleás contra Supay)",
+     "usage": "[oponente] [apuesta]",
+     "options": [
+      {
+       "name": "oponente",
+       "desc": "A quién retás (vacío = Supay)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "apuesta",
+       "desc": "Opcional: \"$500\", \"2 huayruros\", \"facón\"… o lo que quieras (\"el que pierde se cambia el apodo\")",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "dl",
+      "pelea",
+      "vs"
+     ],
+     "mod": false
+    },
+    {
+     "name": "supay",
+     "also": null,
+     "desc": "Mirá a Supay: sus almas robadas, su récord y su poder",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "sp",
+      "almas"
+     ],
+     "mod": false
+    },
+    {
+     "name": "torre",
+     "also": "salamanca",
+     "desc": "Bajá a La Salamanca, la cueva del Diablo: pisos cada vez más difíciles, con jefes que dan nahuales",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "tw",
+      "piso"
+     ],
+     "mod": false
+    },
+    {
+     "name": "apariciones",
+     "also": "spawns",
+     "desc": "Mirá cuándo aparecen las criaturas salvajes, los eventos, las raids y el evento de las 20 almas",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "ap",
+      "proximos",
+      "eventos"
+     ],
+     "mod": false
+    },
+    {
+     "name": "evento",
+     "also": "event",
+     "desc": "Mirá el evento de los 20 almas: ranking, tiempo y cómo conseguirlos",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "ev",
+      "dedos"
+     ],
+     "mod": false
+    },
+    {
+     "name": "rangos",
+     "also": "ranks",
+     "desc": "Grados de rastreador: cuál tenés y cómo ascender",
+     "usage": "[usuario]",
+     "options": [
+      {
+       "name": "usuario",
+       "desc": "De quién ver el rango",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "rango",
+      "grado",
+      "grados"
+     ],
+     "mod": false
+    },
+    {
+     "name": "top",
+     "also": null,
+     "desc": "Ranking del servidor: nivel, pesos, huayruros, duelos, Supay, racha, patrimonio, poder…",
+     "usage": "[categoria]",
+     "options": [
+      {
+       "name": "categoria",
+       "desc": "Qué ranking ver (por defecto: nivel)",
+       "required": false,
+       "choices": [
+        "📈 Nivel",
+        "💵 Pesos",
+        "🔴 Huayruros",
+        "⚔️ Victorias en duelos",
+        "🎯 % de victorias",
+        "🗡️ Exorcismos",
+        "👹 Cazadores de Supay",
+        "🔥 Mejor racha diaria",
+        "🏦 Patrimonio",
+        "🗼 La Salamanca",
+        "🐾 Nahuales",
+        "💪 Poder de combate",
+        "⚒️ Mejor equipo"
+       ]
+      }
+     ],
+     "aliases": [
+      "lb",
+      "ranking",
+      "leaderboard"
+     ],
+     "mod": false
+    }
+   ]
+  },
+  {
+   "id": "shikigamis",
+   "emoji": "🐾",
+   "name": "Nahuales",
+   "desc": "Compañeros que se consiguen con el 🧧 Sello de Invocación de la tienda, los 👑 jefes de la torre o, con suerte, al cazar.\n• **Equipá uno** y su pasiva pelea con vos en todas tus peleas (cazar, torre, duelos, raids…).\n• **Los demás** mandalos de **expedición** 1, 4 u 8 h **a la zona que elijas**: vuelven con pesos, XP, reliquias y materiales (algunos exclusivos de cada zona). En las zonas peligrosas pueden **morir**: revivilos con un 🪬 Talismán de Resurrección.\n• **Las copias repetidas** se guardan: fusionalas para subir de nivel, vendelas, regalalas o intercambialas.",
+   "commands": [
+    {
+     "name": "nahuales",
+     "also": null,
+     "desc": "Tus nahuales: mirá sus pasivas y equipá uno para que pelee con vos",
+     "usage": "[usuario]",
+     "options": [
+      {
+       "name": "usuario",
+       "desc": "De quién ver los nahuales",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "nh",
+      "nahual",
+      "sk",
+      "shiki",
+      "shikigamis"
+     ],
+     "mod": false
+    },
+    {
+     "name": "expedicion",
+     "also": "expedition",
+     "desc": "Mandá a tus nahuales de expedición (1, 4 u 8 h) y cobrá lo que traen",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "ex",
+      "exp",
+      "expediciones"
+     ],
+     "mod": false
+    },
+    {
+     "name": "fusionar",
+     "also": "fuse",
+     "desc": "Fusioná copias repetidas de un nahual para subirle el nivel",
+     "usage": "[nahual] [cantidad]",
+     "options": [
+      {
+       "name": "nahual",
+       "desc": "Cuál (sin nombre: ver qué podés fusionar)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "cantidad",
+       "desc": "Cuántas copias (por defecto, las necesarias para el nivel máximo)",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "fu",
+      "fusion"
+     ],
+     "mod": false
+    },
+    {
+     "name": "revivir",
+     "also": "revive",
+     "desc": "Reviví a un nahual caído en expedición con un 🪬 Talismán de Resurrección",
+     "usage": "<nahual>",
+     "options": [
+      {
+       "name": "nahual",
+       "desc": "Cuál de tus caídos",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "rv",
+      "resucitar"
+     ],
+     "mod": false
+    }
+   ]
+  },
+  {
+   "id": "equipo",
+   "emoji": "🎒",
+   "name": "Equipo y economía",
+   "desc": "Las **reliquias** salen al cazar y en la torre: equipalas para pegar más fuerte y mejoralas hasta +5. En la **tienda** gastás pesos en objetos, consumibles de combate, cajas, nahuales, bonificadores y cosméticos (que se usan con **personalizar**). Con los **materiales** que juntás (y desarmando reliquias) **crafteás** consumibles, sellos, huevos y reliquias exclusivas. Con **regalar** e **intercambio** pasás de todo: pesos, huayruros, reliquias, nahuales, materiales, consumibles y coleccionables.",
+   "commands": [
+    {
+     "name": "inventario",
+     "also": "inventory",
+     "desc": "Tu inventario completo: reliquias, consumibles, materiales, nahuales y colección (o el de otro)",
+     "usage": "[usuario]",
+     "options": [
+      {
+       "name": "usuario",
+       "desc": "De quién ver el inventario",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "inv",
+      "i"
+     ],
+     "mod": false
+    },
+    {
+     "name": "equipar",
+     "also": "equip",
+     "desc": "Equipa una reliquia de tu inventario",
+     "usage": "<objeto>",
+     "options": [
+      {
+       "name": "objeto",
+       "desc": "Nombre del objeto (de tu inventario)",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "eq"
+     ],
+     "mod": false
+    },
+    {
+     "name": "desequipar",
+     "also": "unequip",
+     "desc": "Quita la reliquia de un espacio",
+     "usage": "<espacio>",
+     "options": [
+      {
+       "name": "espacio",
+       "desc": "Qué quitar",
+       "required": true,
+       "choices": [
+        "Arma",
+        "Accesorio"
+       ]
+      }
+     ],
+     "aliases": [
+      "deq"
+     ],
+     "mod": false
+    },
+    {
+     "name": "mejorar",
+     "also": "upgrade",
+     "desc": "Mejorá una reliquia (hasta +5) con pesos y copias repetidas",
+     "usage": "<objeto>",
+     "options": [
+      {
+       "name": "objeto",
+       "desc": "Nombre del objeto (de tu inventario)",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "mj",
+      "upgrade"
+     ],
+     "mod": false
+    },
+    {
+     "name": "desarmar",
+     "also": "dismantle",
+     "desc": "Desarmá reliquias para sacar 🧵 Hilo de Sello (y 💎 de las épicas o mejores)",
+     "usage": "<objeto> [cantidad]",
+     "options": [
+      {
+       "name": "objeto",
+       "desc": "Reliquia de tu inventario",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "cantidad",
+       "desc": "Cuántas",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "ds",
+      "desguazar"
+     ],
+     "mod": false
+    },
+    {
+     "name": "vender",
+     "also": "sell",
+     "desc": "Vendé reliquias o nahuales por pesos",
+     "usage": "<objeto> [cantidad]",
+     "options": [
+      {
+       "name": "objeto",
+       "desc": "Reliquia o nahual (de tu inventario)",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "cantidad",
+       "desc": "Cuántas",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "vd"
+     ],
+     "mod": false
+    },
+    {
+     "name": "tienda",
+     "also": "shop",
+     "desc": "Mirá y comprá objetos, cajas, nahuales, bonificadores y cosméticos",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "shop",
+      "ti"
+     ],
+     "mod": false
+    },
+    {
+     "name": "comprar",
+     "also": "buy",
+     "desc": "Comprá un objeto de la tienda (o usá los menús de /tienda)",
+     "usage": "<objeto> [cantidad]",
+     "options": [
+      {
+       "name": "objeto",
+       "desc": "Qué comprar (número o nombre)",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "cantidad",
+       "desc": "Cuántos (los bonificadores de tiempo suman horas)",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "buy",
+      "co"
+     ],
+     "mod": false
+    },
+    {
+     "name": "craftear",
+     "also": "craft",
+     "desc": "Fabricá consumibles, sellos, huevos y más con materiales",
+     "usage": "[receta] [cantidad]",
+     "options": [
+      {
+       "name": "receta",
+       "desc": "Qué craftear directamente (o abrí los menús sin poner nada)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "cantidad",
+       "desc": "Cuántas veces",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "cr",
+      "craft",
+      "taller"
+     ],
+     "mod": false
+    },
+    {
+     "name": "personalizar",
+     "also": "customize",
+     "desc": "Usá tus cosméticos de la tienda: título, emoji, color, rol de color o apodo de nahual",
+     "usage": "<que> [texto]",
+     "options": [
+      {
+       "name": "que",
+       "desc": "Qué cambiar",
+       "required": true,
+       "choices": [
+        "🏷️ título (de los que tenés)",
+        "😀 emoji de perfil",
+        "🖼️ color del marco del perfil",
+        "🎨 rol de color",
+        "✏️ apodo del nahual equipado"
+       ]
+      },
+      {
+       "name": "texto",
+       "desc": "El valor nuevo (ej: \"Exorcista\", 🔥, rojo, #ff0055, Kiki) o \"ninguno\" para sacarlo",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "pz",
+      "estilo"
+     ],
+     "mod": false
+    },
+    {
+     "name": "regalar",
+     "also": "gift",
+     "desc": "Regalá pesos, huayruros, reliquias o nahuales a alguien",
+     "usage": "<usuario> <regalo>",
+     "options": [
+      {
+       "name": "usuario",
+       "desc": "A quién",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "regalo",
+       "desc": "Qué regalás, ej: \"$500, 2 huayruros, facón, 2 cuy, 5 hilo, 1 alma\"",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "dar",
+      "rg"
+     ],
+     "mod": false
+    },
+    {
+     "name": "intercambio",
+     "also": "trade",
+     "desc": "Proponé un intercambio a alguien (tiene que aceptarlo)",
+     "usage": "<usuario> <ofrezco> [pido]",
+     "options": [
+      {
+       "name": "usuario",
+       "desc": "Con quién",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "ofrezco",
+       "desc": "Lo que das, ej: \"facón, $200\"",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "pido",
+       "desc": "Lo que pedís a cambio, ej: \"hacha\" (vacío = nada)",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "ic",
+      "trade"
+     ],
+     "mod": false
+    }
+   ]
+  },
+  {
+   "id": "moderacion",
+   "emoji": "🛡️",
+   "name": "Moderación",
+   "desc": "Solo para el staff. Solo ves los comandos que tus permisos te dejan usar.",
+   "commands": [
+    {
+     "name": "ban",
+     "also": null,
+     "desc": "Banea a un usuario del servidor",
+     "usage": "<usuario> [razon] [borrar_mensajes]",
+     "options": [
+      {
+       "name": "usuario",
+       "desc": "Usuario a banear",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "razon",
+       "desc": "Motivo",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "borrar_mensajes",
+       "desc": "Días de mensajes a borrar (0-7)",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "unban",
+     "also": null,
+     "desc": "Quita el ban a un usuario",
+     "usage": "<id> [razon]",
+     "options": [
+      {
+       "name": "id",
+       "desc": "ID del usuario",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "razon",
+       "desc": "Motivo",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "kick",
+     "also": null,
+     "desc": "Expulsa a un usuario del servidor",
+     "usage": "<usuario> [razon]",
+     "options": [
+      {
+       "name": "usuario",
+       "desc": "Usuario a expulsar",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "razon",
+       "desc": "Motivo",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "timeout",
+     "also": null,
+     "desc": "Aísla (silencia) a un usuario temporalmente",
+     "usage": "<usuario> <duracion> [razon]",
+     "options": [
+      {
+       "name": "usuario",
+       "desc": "Usuario a aislar",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "duracion",
+       "desc": "Ej: 30s, 10m, 2h, 1d (máx 28d)",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "razon",
+       "desc": "Motivo",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "to",
+      "mute"
+     ],
+     "mod": true
+    },
+    {
+     "name": "untimeout",
+     "also": null,
+     "desc": "Quita el aislamiento a un usuario",
+     "usage": "<usuario> [razon]",
+     "options": [
+      {
+       "name": "usuario",
+       "desc": "Usuario",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "razon",
+       "desc": "Motivo",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "unmute"
+     ],
+     "mod": true
+    },
+    {
+     "name": "warn",
+     "also": null,
+     "desc": "Advierte a un usuario (queda registrado)",
+     "usage": "<usuario> <razon>",
+     "options": [
+      {
+       "name": "usuario",
+       "desc": "Usuario a advertir",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "razon",
+       "desc": "Motivo",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "warns",
+     "also": null,
+     "desc": "Muestra las advertencias de un usuario",
+     "usage": "<usuario>",
+     "options": [
+      {
+       "name": "usuario",
+       "desc": "Usuario",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "clearwarns",
+     "also": null,
+     "desc": "Borra todas las advertencias de un usuario",
+     "usage": "<usuario>",
+     "options": [
+      {
+       "name": "usuario",
+       "desc": "Usuario",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "cw"
+     ],
+     "mod": true
+    },
+    {
+     "name": "purge",
+     "also": null,
+     "desc": "Borra mensajes del canal",
+     "usage": "<cantidad> [usuario]",
+     "options": [
+      {
+       "name": "cantidad",
+       "desc": "Cuántos mensajes (1-100)",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "usuario",
+       "desc": "Solo mensajes de este usuario",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "clear",
+      "borrar"
+     ],
+     "mod": true
+    },
+    {
+     "name": "slowmode",
+     "also": null,
+     "desc": "Activá o sacá el modo lento del canal",
+     "usage": "<segundos>",
+     "options": [
+      {
+       "name": "segundos",
+       "desc": "0 para desactivar (máx 21600)",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "lock",
+     "also": null,
+     "desc": "Bloquea el canal (nadie puede escribir)",
+     "usage": "[canal] [razon]",
+     "options": [
+      {
+       "name": "canal",
+       "desc": "Canal (por defecto, el actual)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "razon",
+       "desc": "Motivo",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "unlock",
+     "also": null,
+     "desc": "Desbloquea el canal",
+     "usage": "[canal] [razon]",
+     "options": [
+      {
+       "name": "canal",
+       "desc": "Canal (por defecto, el actual)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "razon",
+       "desc": "Motivo",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "rol",
+     "also": "role",
+     "desc": "Dale o sacale un rol a alguien",
+     "usage": "<accion> <usuario> <rol>",
+     "options": [
+      {
+       "name": "accion",
+       "desc": "Dar o quitar",
+       "required": true,
+       "choices": [
+        "dar",
+        "quitar"
+       ]
+      },
+      {
+       "name": "usuario",
+       "desc": "A quién",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "rol",
+       "desc": "Qué rol",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "sincronizar-rangos",
+     "also": "sync-ranks",
+     "desc": "Crea los roles de rango (si faltan) y se los pone a todos los miembros",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "sync"
+     ],
+     "mod": true
+    },
+    {
+     "name": "config-eventos",
+     "also": "event-config",
+     "desc": "Configurá dónde y cada cuánto aparecen las criaturas salvajes",
+     "usage": "<accion> [canal] [valor]",
+     "options": [
+      {
+       "name": "accion",
+       "desc": "Qué hacer",
+       "required": true,
+       "choices": [
+        "lista — ver la configuración",
+        "bloquear — que NO aparezcan en un canal",
+        "desbloquear — volver a permitir un canal",
+        "intervalo — minutos entre apariciones (ej: 30-60)",
+        "activar — que vuelvan a aparecer",
+        "desactivar — que no aparezcan más",
+        "aparecer — una criatura (o un evento: valor trivia/palabra/escurridiza/huayruro)",
+        "raids — horas entre raids al azar (ej: 4-8) o \"no\" / \"si\"",
+        "eventos — días entre eventos de huayruros (ej: 4-8) o \"no\" / \"si\""
+       ]
+      },
+      {
+       "name": "canal",
+       "desc": "Canal (para bloquear, desbloquear o aparecer)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "valor",
+       "desc": "intervalo: \"30-60\" (min) · raids: \"4-8\" (h) · eventos: \"4-8\" (días) · \"no\"/\"si\" · aparecer: tipo",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "cfg"
+     ],
+     "mod": true
+    },
+    {
+     "name": "evento-admin",
+     "also": "event-admin",
+     "desc": "Arrancá o terminá el evento de los 20 almas",
+     "usage": "<accion> [duracion]",
+     "options": [
+      {
+       "name": "accion",
+       "desc": "Qué hacer",
+       "required": true,
+       "choices": [
+        "iniciar",
+        "terminar"
+       ]
+      },
+      {
+       "name": "duracion",
+       "desc": "Al iniciar: cuánto dura (30m, 12h, 3d). Por defecto 3d",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "raid",
+     "also": null,
+     "desc": "Invocá una raid contra uno de los jefes",
+     "usage": "<jefe> [canal]",
+     "options": [
+      {
+       "name": "jefe",
+       "desc": "Contra quién",
+       "required": true,
+       "choices": [
+        "👹 Supay",
+        "💀 Mictlantecuhtli",
+        "⚖️ Señores de Xibalbá",
+        "🐉 Quetzalcóatl",
+        "🐍 Coatlicue",
+        "🌀 Pachakuti",
+        "☀️ Inti",
+        "🌽 Pachamama",
+        "⛈️ Tlaloc y Chaac",
+        "💀 Calaca Mayor",
+        "🎭 Rey Momo",
+        "🐦 Pajarito del Año Nuevo",
+        "🌽 Gran Tótem de la Cosecha"
+       ]
+      },
+      {
+       "name": "canal",
+       "desc": "Dónde (por defecto, acá)",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "anuncio",
+     "also": "announce",
+     "desc": "Canal de avisos: elegir el canal o hacer que el Tata anuncie algo",
+     "usage": "<accion> [canal] [texto]",
+     "options": [
+      {
+       "name": "accion",
+       "desc": "Qué hacer",
+       "required": true,
+       "choices": [
+        "canal — elegir el canal de avisos",
+        "escribir — el Tata anuncia tu texto",
+        "novedades — volver a publicar la última actualización"
+       ]
+      },
+      {
+       "name": "canal",
+       "desc": "Canal (por defecto, el de avisos)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "texto",
+       "desc": "Para escribir: el anuncio. \"Título | texto\" pone título. \\n = salto de línea",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "idioma",
+     "also": "language",
+     "desc": "Elegí en qué idioma habla el bot en este servidor",
+     "usage": "[idioma]",
+     "options": [
+      {
+       "name": "idioma",
+       "desc": "Español o inglés",
+       "required": false,
+       "choices": [
+        "Español",
+        "English"
+       ]
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "config",
+     "also": null,
+     "desc": "Configurá el bot en este servidor: bienvenidas, roles, moderación, prefijo...",
+     "usage": "<accion> [canal] [rol] [texto]",
+     "options": [
+      {
+       "name": "accion",
+       "desc": "Qué configurar",
+       "required": true,
+       "choices": [
+        "ver toda la configuración",
+        "bienvenida — canal de bienvenidas",
+        "despedida — canal de despedidas",
+        "mensaje-bienvenida — texto propio ({usuario}, {servidor})",
+        "mensaje-despedida — texto propio ({usuario}, {servidor})",
+        "autorol — sumar un rol que se da al entrar",
+        "quitar-autorol — sacar un rol de los que se dan al entrar",
+        "rangos — roles de rango del juego (si/no)",
+        "logs — canal de registros de moderación",
+        "rol-mod — rol de moderador",
+        "sancion — ej: \"3 aislar 1h\", \"5 expulsar\", \"3 no\"",
+        "vencimiento — días hasta que vence un warn (0 = nunca)",
+        "prefijo — prefijo de los comandos (ej: !)",
+        "avisos — canal donde anuncio las novedades"
+       ]
+      },
+      {
+       "name": "canal",
+       "desc": "Canal (para bienvenida, despedida, logs, avisos)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "rol",
+       "desc": "Rol (para autorol, quitar-autorol, rol-mod)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "texto",
+       "desc": "Valor: mensaje, \"si\"/\"no\", \"3 aislar 1h\", días, prefijo...",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    }
+   ]
+  }
+ ]
+}

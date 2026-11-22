@@ -1,0 +1,1400 @@
+{
+ "categories": [
+  {
+   "id": "inicio",
+   "emoji": "🚀",
+   "name": "Getting started",
+   "desc": "Just arrived? Do the **tutorial**, spin the wheel and check your profile. Daily quests tell you what to do each day.",
+   "commands": [
+    {
+     "name": "tutorial",
+     "also": null,
+     "desc": "Learn to play: the wheel, training, duels and great spells",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "tuto",
+      "guia"
+     ],
+     "mod": false
+    },
+    {
+     "name": "profile",
+     "also": "perfil",
+     "desc": "Show your Tracker profile (or someone else's)",
+     "usage": "[user]",
+     "options": [
+      {
+       "name": "user",
+       "desc": "Whose profile to see",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "mi",
+      "p",
+      "yo"
+     ],
+     "mod": false
+    },
+    {
+     "name": "cooldowns",
+     "also": "tiempos",
+     "desc": "See how long until you can train, hunt, work, claim your daily and vote",
+     "usage": "[user]",
+     "options": [
+      {
+       "name": "user",
+       "desc": "Whose cooldowns to see",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "cd",
+      "cds",
+      "cooldown",
+      "cooldowns",
+      "tiempo"
+     ],
+     "mod": false
+    },
+    {
+     "name": "quests",
+     "also": "misiones",
+     "desc": "Your 3 daily quests and their progress",
+     "usage": "[user]",
+     "options": [
+      {
+       "name": "user",
+       "desc": "Whose quests to see",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "m",
+      "mis",
+      "quests"
+     ],
+     "mod": false
+    },
+    {
+     "name": "news",
+     "also": "novedades",
+     "desc": "See what's new in the latest bot update",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "nov",
+      "updates",
+      "news"
+     ],
+     "mod": false
+    },
+    {
+     "name": "premium",
+     "also": null,
+     "desc": "See your premium and this server's, the perks and how to get it",
+     "usage": "[action] [user] [duration] [server]",
+     "options": [
+      {
+       "name": "action",
+       "desc": "view (default) · give/remove/list (bot owners only)",
+       "required": false,
+       "choices": [
+        "view",
+        "give (bot owners)",
+        "remove (bot owners)",
+        "list (bot owners)"
+       ]
+      },
+      {
+       "name": "user",
+       "desc": "Who (give/remove)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "duration",
+       "desc": "30d, 90d, 1y or perma",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "server",
+       "desc": "Server ID (or \"here\") for server premium",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "vip",
+      "padrino"
+     ],
+     "mod": false
+    },
+    {
+     "name": "vote",
+     "also": "votar",
+     "desc": "Vote for the Tata on bot list sites and collect your reward",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "vt",
+      "voto",
+      "votos"
+     ],
+     "mod": false
+    },
+    {
+     "name": "help",
+     "also": null,
+     "desc": "Help by category, or about a specific command",
+     "usage": "[topic]",
+     "options": [
+      {
+       "name": "topic",
+       "desc": "Category or command, e.g. nahuales, salamanca, spin",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "h",
+      "ayuda",
+      "comandos"
+     ],
+     "mod": false
+    }
+   ]
+  },
+  {
+   "id": "tecnica",
+   "emoji": "🎰",
+   "name": "Gift",
+   "desc": "Your gift defines how you fight. Your first **spin** of the wheel is free, then it costs 🔴 huayruros (with 10 you can spin x10 and choose). **Pacts** give you power in exchange for a drawback and, from Lv 50, **reincarnating** gives you permanent bonuses.",
+   "commands": [
+    {
+     "name": "spin",
+     "also": "ruleta",
+     "desc": "Spin the wheel to get your gift (free the first time, then 1 🔴)",
+     "usage": "[spins]",
+     "options": [
+      {
+       "name": "spins",
+       "desc": "How many spins (x10: 10 🔴, you pick which one to keep)",
+       "required": false,
+       "choices": [
+        "1 spin",
+        "10 spins (you pick one)"
+       ]
+      }
+     ],
+     "aliases": [
+      "r",
+      "girar"
+     ],
+     "mod": false
+    },
+    {
+     "name": "odds",
+     "also": "probabilidades",
+     "desc": "See how likely each gift is on the wheel",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "prob",
+      "chances"
+     ],
+     "mod": false
+    },
+    {
+     "name": "learn",
+     "also": "aprender",
+     "desc": "Use a gift scroll (zone bosses drop them) to change your gift",
+     "usage": "[gift]",
+     "options": [
+      {
+       "name": "gift",
+       "desc": "Which scroll to use",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "apr",
+      "pergamino"
+     ],
+     "mod": false
+    },
+    {
+     "name": "pact",
+     "also": "pacto",
+     "desc": "Binding pacts: a drawback in exchange for power (no name: see the list)",
+     "usage": "[pact]",
+     "options": [
+      {
+       "name": "pact",
+       "desc": "Which pact to sign",
+       "required": false,
+       "choices": [
+        "🩸 Fragile Body",
+        "⚔️ No Guard",
+        "🧬 Juramento de Fuerza",
+        "💰 Greed",
+        "📚 Study",
+        "🧛 Blood Pact",
+        "🗡️ Executioner",
+        "🎲 All or Nothing"
+       ]
+      }
+     ],
+     "aliases": [
+      "pc",
+      "pactos"
+     ],
+     "mod": false
+    },
+    {
+     "name": "break-pact",
+     "also": "romper-pacto",
+     "desc": "Break your binding pact (you can't sign another one for a while)",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "rp"
+     ],
+     "mod": false
+    },
+    {
+     "name": "reincarnate",
+     "also": "reencarnar",
+     "desc": "From Lv 50: go back to Lv 1 for a permanent damage and XP bonus",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "rc",
+      "reencarnacion"
+     ],
+     "mod": false
+    }
+   ]
+  },
+  {
+   "id": "actividades",
+   "emoji": "🥋",
+   "name": "Activities",
+   "desc": "What you do every so often to level up and earn pesos. Each activity has its own cooldown (check them with **cooldowns**). The most dangerous zones pay more for hunting and working.",
+   "commands": [
+    {
+     "name": "train",
+     "also": "entrenar",
+     "desc": "Train to earn XP (every 15 minutes)",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "e",
+      "ent"
+     ],
+     "mod": false
+    },
+    {
+     "name": "daily",
+     "also": "diario",
+     "desc": "Claim your daily huayruro (7-day streak = bonus)",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "d",
+      "daily"
+     ],
+     "mod": false
+    },
+    {
+     "name": "work",
+     "also": "trabajar",
+     "desc": "Work as a Tracker to earn pesos (every 30 minutes)",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "t",
+      "tr"
+     ],
+     "mod": false
+    },
+    {
+     "name": "hunt",
+     "also": "cazar",
+     "desc": "Hunt a creature in your current zone (every 5 minutes)",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "c",
+      "caza"
+     ],
+     "mod": false
+    },
+    {
+     "name": "zones",
+     "also": "zonas",
+     "desc": "See the map's zones and which ones you've unlocked",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "z",
+      "mapa"
+     ],
+     "mod": false
+    },
+    {
+     "name": "travel",
+     "also": "viajar",
+     "desc": "Travel to another zone (changes where you hunt and work)",
+     "usage": "<zone>",
+     "options": [
+      {
+       "name": "zone",
+       "desc": "Where to go",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "v",
+      "ir"
+     ],
+     "mod": false
+    }
+   ]
+  },
+  {
+   "id": "combate",
+   "emoji": "⚔️",
+   "name": "Combat and events",
+   "desc": "Challenge others (or Supay) to a **duel**, go down the **Salamanca** floor by floor and join the wild creatures and raids that show up in chat. **Ranks** and the **top** show who's the strongest.",
+   "commands": [
+    {
+     "name": "duel",
+     "also": "duelo",
+     "desc": "Challenge someone to a duel with your gift (no opponent: you fight Supay)",
+     "usage": "[opponent] [bet]",
+     "options": [
+      {
+       "name": "opponent",
+       "desc": "Who you challenge (empty = Supay)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "bet",
+       "desc": "Optional: \"$500\", \"2 huayruros\", an item… or anything (\"loser changes their nickname\")",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "dl",
+      "pelea",
+      "vs"
+     ],
+     "mod": false
+    },
+    {
+     "name": "supay",
+     "also": null,
+     "desc": "Look at Supay: his stolen souls, his record and his power",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "sp",
+      "almas"
+     ],
+     "mod": false
+    },
+    {
+     "name": "salamanca",
+     "also": "torre",
+     "desc": "Go down into the Salamanca, the Devil's cave: harder floors, bosses that drop nahuales",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "tw",
+      "piso"
+     ],
+     "mod": false
+    },
+    {
+     "name": "spawns",
+     "also": "apariciones",
+     "desc": "See when wild creatures, events, raids and the 20 souls event show up",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "ap",
+      "proximos",
+      "eventos"
+     ],
+     "mod": false
+    },
+    {
+     "name": "event",
+     "also": "evento",
+     "desc": "See the 20 souls event: leaderboard, time left and how to get them",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "ev",
+      "dedos"
+     ],
+     "mod": false
+    },
+    {
+     "name": "ranks",
+     "also": "rangos",
+     "desc": "Tracker ranks: which one you have and how to rank up",
+     "usage": "[user]",
+     "options": [
+      {
+       "name": "user",
+       "desc": "Whose rank to see",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "rango",
+      "grado",
+      "grados"
+     ],
+     "mod": false
+    },
+    {
+     "name": "top",
+     "also": null,
+     "desc": "Server leaderboard: level, pesos, huayruros, duels, Supay, streak, wealth, power…",
+     "usage": "[category]",
+     "options": [
+      {
+       "name": "category",
+       "desc": "Which leaderboard (default: level)",
+       "required": false,
+       "choices": [
+        "📈 Level",
+        "💵 Pesos",
+        "🔴 Huayruros",
+        "⚔️ Duel wins",
+        "🎯 Win rate",
+        "🗡️ Creatures banished",
+        "👹 Supay hunters",
+        "🔥 Best daily streak",
+        "🏦 Wealth",
+        "🗼 Salamanca",
+        "🐾 Nahuales",
+        "💪 Combat power",
+        "⚒️ Best gear"
+       ]
+      }
+     ],
+     "aliases": [
+      "lb",
+      "ranking",
+      "leaderboard"
+     ],
+     "mod": false
+    }
+   ]
+  },
+  {
+   "id": "shikigamis",
+   "emoji": "🐾",
+   "name": "Nahuales",
+   "desc": "Spirit companions you get with the 🧧 Summoning Seal from the shop, from the 👑 Salamanca bosses or, if you're lucky, while hunting.\n• **Equip one** and its passive fights with you in every fight (hunting, Salamanca, duels, raids…).\n• **Send the rest** on an **expedition** for 1, 4 or 8 h **to the zone you choose**: they come back with pesos, XP, relics and materials (some exclusive to each zone). In dangerous zones they can **die**: revive them with a 🪬 Resurrection Talisman.\n• **Duplicate copies** are kept: fuse them to level up, sell them, gift them or trade them.",
+   "commands": [
+    {
+     "name": "nahuales",
+     "also": null,
+     "desc": "Your nahuales: see their passives and equip one to fight with you",
+     "usage": "[user]",
+     "options": [
+      {
+       "name": "user",
+       "desc": "Whose nahuales to see",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "nh",
+      "nahual",
+      "sk",
+      "shiki",
+      "shikigamis"
+     ],
+     "mod": false
+    },
+    {
+     "name": "expedition",
+     "also": "expedicion",
+     "desc": "Send your nahuales on an expedition (1, 4 or 8 h) and collect what they bring",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "ex",
+      "exp",
+      "expediciones"
+     ],
+     "mod": false
+    },
+    {
+     "name": "fuse",
+     "also": "fusionar",
+     "desc": "Fuse duplicate copies of a nahual to level it up",
+     "usage": "[nahual] [amount]",
+     "options": [
+      {
+       "name": "nahual",
+       "desc": "Which one (no name: see what you can fuse)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "amount",
+       "desc": "How many copies (default: as many as needed for max level)",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "fu",
+      "fusion"
+     ],
+     "mod": false
+    },
+    {
+     "name": "revive",
+     "also": "revivir",
+     "desc": "Revive a nahual that fell on an expedition with a 🪬 Resurrection Talisman",
+     "usage": "<nahual>",
+     "options": [
+      {
+       "name": "nahual",
+       "desc": "Which of your fallen ones",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "rv",
+      "resucitar"
+     ],
+     "mod": false
+    }
+   ]
+  },
+  {
+   "id": "equipo",
+   "emoji": "🎒",
+   "name": "Gear and economy",
+   "desc": "**Relics** drop while hunting and in the Salamanca: equip them to hit harder and upgrade them up to +5. In the **shop** you spend pesos on items, combat consumables, boxes, nahuales, boosts and cosmetics (used with **customize**). With the **materials** you gather (and by dismantling relics) you **craft** consumables, seals, eggs and exclusive relics. With **gift** and **trade** you can pass anything around: pesos, huayruros, relics, nahuales, materials, consumables and collectibles.",
+   "commands": [
+    {
+     "name": "inventory",
+     "also": "inventario",
+     "desc": "Your full inventory: relics, consumables, materials, nahuales and collection",
+     "usage": "[user]",
+     "options": [
+      {
+       "name": "user",
+       "desc": "Whose inventory to see",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "inv",
+      "i"
+     ],
+     "mod": false
+    },
+    {
+     "name": "equip",
+     "also": "equipar",
+     "desc": "Equip a relic from your inventory",
+     "usage": "<item>",
+     "options": [
+      {
+       "name": "item",
+       "desc": "Item name (from your inventory)",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "eq"
+     ],
+     "mod": false
+    },
+    {
+     "name": "unequip",
+     "also": "desequipar",
+     "desc": "Remove the relic from a slot",
+     "usage": "<slot>",
+     "options": [
+      {
+       "name": "slot",
+       "desc": "What to remove",
+       "required": true,
+       "choices": [
+        "Weapon",
+        "Accessory"
+       ]
+      }
+     ],
+     "aliases": [
+      "deq"
+     ],
+     "mod": false
+    },
+    {
+     "name": "upgrade",
+     "also": "mejorar",
+     "desc": "Upgrade a relic (up to +5) with pesos and duplicate copies",
+     "usage": "<item>",
+     "options": [
+      {
+       "name": "item",
+       "desc": "Item name (from your inventory)",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "mj",
+      "upgrade"
+     ],
+     "mod": false
+    },
+    {
+     "name": "dismantle",
+     "also": "desarmar",
+     "desc": "Dismantle relics to get 🧵 Seal Thread (and 💎 from epic or better)",
+     "usage": "<item> [amount]",
+     "options": [
+      {
+       "name": "item",
+       "desc": "Relic from your inventory",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "amount",
+       "desc": "How many",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "ds",
+      "desguazar"
+     ],
+     "mod": false
+    },
+    {
+     "name": "sell",
+     "also": "vender",
+     "desc": "Sell relics or nahuales for pesos",
+     "usage": "<item> [amount]",
+     "options": [
+      {
+       "name": "item",
+       "desc": "Relic or nahual (from your inventory)",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "amount",
+       "desc": "How many",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "vd"
+     ],
+     "mod": false
+    },
+    {
+     "name": "shop",
+     "also": "tienda",
+     "desc": "Browse and buy items, boxes, nahuales, boosts and cosmetics",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "shop",
+      "ti"
+     ],
+     "mod": false
+    },
+    {
+     "name": "buy",
+     "also": "comprar",
+     "desc": "Buy an item from the shop (or use the /shop menus)",
+     "usage": "<item> [amount]",
+     "options": [
+      {
+       "name": "item",
+       "desc": "What to buy (number or name)",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "amount",
+       "desc": "How many (time boosts add up hours)",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "buy",
+      "co"
+     ],
+     "mod": false
+    },
+    {
+     "name": "craft",
+     "also": "craftear",
+     "desc": "Craft consumables, seals, eggs and more with materials",
+     "usage": "[recipe] [amount]",
+     "options": [
+      {
+       "name": "recipe",
+       "desc": "What to craft right away (or open the menus with nothing)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "amount",
+       "desc": "How many times",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "cr",
+      "craft",
+      "taller"
+     ],
+     "mod": false
+    },
+    {
+     "name": "customize",
+     "also": "personalizar",
+     "desc": "Use your shop cosmetics: title, emoji, color, color role or nahual nickname",
+     "usage": "<what> [value]",
+     "options": [
+      {
+       "name": "what",
+       "desc": "What to change",
+       "required": true,
+       "choices": [
+        "🏷️ title (from the ones you own)",
+        "😀 profile emoji",
+        "🖼️ profile frame color",
+        "🎨 color role",
+        "✏️ equipped nahual's nickname"
+       ]
+      },
+      {
+       "name": "value",
+       "desc": "The new value (e.g. 🔥, red, #ff0055, Kiki) or \"ninguno\" to remove it",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "pz",
+      "estilo"
+     ],
+     "mod": false
+    },
+    {
+     "name": "gift",
+     "also": "regalar",
+     "desc": "Give pesos, huayruros, relics or nahuales to someone",
+     "usage": "<user> <gift>",
+     "options": [
+      {
+       "name": "user",
+       "desc": "To whom",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "gift",
+       "desc": "What you give, e.g. \"$500, 2 huayruros, 5 hilo, 1 alma\"",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "dar",
+      "rg"
+     ],
+     "mod": false
+    },
+    {
+     "name": "trade",
+     "also": "intercambio",
+     "desc": "Offer someone a trade (they have to accept it)",
+     "usage": "<user> <offer> [ask]",
+     "options": [
+      {
+       "name": "user",
+       "desc": "With whom",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "offer",
+       "desc": "What you give, e.g. \"$200, 2 huayruros\"",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "ask",
+       "desc": "What you want in return (empty = nothing)",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "ic",
+      "trade"
+     ],
+     "mod": false
+    }
+   ]
+  },
+  {
+   "id": "moderacion",
+   "emoji": "🛡️",
+   "name": "Moderation",
+   "desc": "Staff only. You only see the commands your permissions let you use.",
+   "commands": [
+    {
+     "name": "ban",
+     "also": null,
+     "desc": "Ban a user from the server",
+     "usage": "<user> [reason] [delete_messages]",
+     "options": [
+      {
+       "name": "user",
+       "desc": "User to ban",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "reason",
+       "desc": "Reason",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "delete_messages",
+       "desc": "Days of messages to delete (0-7)",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "unban",
+     "also": null,
+     "desc": "Unban a user",
+     "usage": "<id> [reason]",
+     "options": [
+      {
+       "name": "id",
+       "desc": "User ID",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "reason",
+       "desc": "Reason",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "kick",
+     "also": null,
+     "desc": "Kick a user from the server",
+     "usage": "<user> [reason]",
+     "options": [
+      {
+       "name": "user",
+       "desc": "User to kick",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "reason",
+       "desc": "Reason",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "timeout",
+     "also": null,
+     "desc": "Time out (mute) a user for a while",
+     "usage": "<user> <duration> [reason]",
+     "options": [
+      {
+       "name": "user",
+       "desc": "User to time out",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "duration",
+       "desc": "E.g. 30s, 10m, 2h, 1d (max 28d)",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "reason",
+       "desc": "Reason",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "to",
+      "mute"
+     ],
+     "mod": true
+    },
+    {
+     "name": "untimeout",
+     "also": null,
+     "desc": "Remove a user's timeout",
+     "usage": "<user> [reason]",
+     "options": [
+      {
+       "name": "user",
+       "desc": "User",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "reason",
+       "desc": "Reason",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "unmute"
+     ],
+     "mod": true
+    },
+    {
+     "name": "warn",
+     "also": null,
+     "desc": "Warn a user (it gets logged)",
+     "usage": "<user> <reason>",
+     "options": [
+      {
+       "name": "user",
+       "desc": "User to warn",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "reason",
+       "desc": "Reason",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "warns",
+     "also": null,
+     "desc": "Show a user's warnings",
+     "usage": "<user>",
+     "options": [
+      {
+       "name": "user",
+       "desc": "User",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "clearwarns",
+     "also": null,
+     "desc": "Delete all of a user's warnings",
+     "usage": "<user>",
+     "options": [
+      {
+       "name": "user",
+       "desc": "User",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "cw"
+     ],
+     "mod": true
+    },
+    {
+     "name": "purge",
+     "also": null,
+     "desc": "Delete messages in this channel",
+     "usage": "<amount> [user]",
+     "options": [
+      {
+       "name": "amount",
+       "desc": "How many messages (1-100)",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "user",
+       "desc": "Only messages from this user",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "clear",
+      "borrar"
+     ],
+     "mod": true
+    },
+    {
+     "name": "slowmode",
+     "also": null,
+     "desc": "Turn the channel's slowmode on or off",
+     "usage": "<seconds>",
+     "options": [
+      {
+       "name": "seconds",
+       "desc": "0 to turn it off (max 21600)",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "lock",
+     "also": null,
+     "desc": "Lock the channel (nobody can write)",
+     "usage": "[channel] [reason]",
+     "options": [
+      {
+       "name": "channel",
+       "desc": "Channel (default: this one)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "reason",
+       "desc": "Reason",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "unlock",
+     "also": null,
+     "desc": "Unlock the channel",
+     "usage": "[channel] [reason]",
+     "options": [
+      {
+       "name": "channel",
+       "desc": "Channel (default: this one)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "reason",
+       "desc": "Reason",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "role",
+     "also": "rol",
+     "desc": "Give or remove a role from someone",
+     "usage": "<action> <user> <role>",
+     "options": [
+      {
+       "name": "action",
+       "desc": "Give or remove",
+       "required": true,
+       "choices": [
+        "give",
+        "remove"
+       ]
+      },
+      {
+       "name": "user",
+       "desc": "Who",
+       "required": true,
+       "choices": []
+      },
+      {
+       "name": "role",
+       "desc": "Which role",
+       "required": true,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "sync-ranks",
+     "also": "sincronizar-rangos",
+     "desc": "Create the rank roles (if missing) and give them to every member",
+     "usage": "",
+     "options": [],
+     "aliases": [
+      "sync"
+     ],
+     "mod": true
+    },
+    {
+     "name": "event-config",
+     "also": "config-eventos",
+     "desc": "Set up where and how often wild creatures show up",
+     "usage": "<action> [channel] [value]",
+     "options": [
+      {
+       "name": "action",
+       "desc": "What to do",
+       "required": true,
+       "choices": [
+        "list — see the settings",
+        "block — creatures will NOT show up in a channel",
+        "unblock — allow a channel again",
+        "interval — minutes between spawns (e.g. 30-60)",
+        "enable — turn spawns back on",
+        "disable — stop spawns",
+        "spawn — a creature (or an event: trivia/palabra/escurridiza/huayruro)",
+        "raids — hours between random raids (e.g. 4-8) or \"no\" / \"si\"",
+        "events — days between huayruro events (e.g. 4-8) or \"no\" / \"si\""
+       ]
+      },
+      {
+       "name": "channel",
+       "desc": "Channel (to block, unblock or spawn)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "value",
+       "desc": "interval: \"30-60\" (min) · raids: \"4-8\" (h) · events: \"4-8\" (days) · \"no\"/\"si\" · spawn: type",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [
+      "cfg"
+     ],
+     "mod": true
+    },
+    {
+     "name": "event-admin",
+     "also": "evento-admin",
+     "desc": "Start or end the 20 souls event",
+     "usage": "<action> [duration]",
+     "options": [
+      {
+       "name": "action",
+       "desc": "What to do",
+       "required": true,
+       "choices": [
+        "start",
+        "end"
+       ]
+      },
+      {
+       "name": "duration",
+       "desc": "When starting: how long it lasts (30m, 12h, 3d). Default 3d",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "raid",
+     "also": null,
+     "desc": "Summon a raid against one of the bosses",
+     "usage": "<boss> [channel]",
+     "options": [
+      {
+       "name": "boss",
+       "desc": "Against whom",
+       "required": true,
+       "choices": [
+        "👹 Supay",
+        "💀 Mictlantecuhtli",
+        "⚖️ Lords of Xibalba",
+        "🐉 Quetzalcóatl",
+        "🐍 Coatlicue",
+        "🌀 Pachakuti",
+        "☀️ Inti",
+        "🌽 Pachamama",
+        "⛈️ Tlaloc and Chaac",
+        "💀 Great Calaca",
+        "🎭 King Momo",
+        "🐦 New Year's Little Bird",
+        "🌽 Great Harvest Totem"
+       ]
+      },
+      {
+       "name": "channel",
+       "desc": "Where (default: here)",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "announce",
+     "also": "anuncio",
+     "desc": "Announcements channel: pick it or have the Tata announce something",
+     "usage": "<action> [channel] [text]",
+     "options": [
+      {
+       "name": "action",
+       "desc": "What to do",
+       "required": true,
+       "choices": [
+        "channel — pick the announcements channel",
+        "write — the Tata announces your text",
+        "news — repost the latest update"
+       ]
+      },
+      {
+       "name": "channel",
+       "desc": "Channel (default: the announcements one)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "text",
+       "desc": "To write: the announcement. \"Title | text\" adds a title. \\n = new line",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "language",
+     "also": "idioma",
+     "desc": "Choose which language the bot speaks in this server",
+     "usage": "[language]",
+     "options": [
+      {
+       "name": "language",
+       "desc": "Spanish or English",
+       "required": false,
+       "choices": [
+        "Español (Spanish)",
+        "English"
+       ]
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    },
+    {
+     "name": "config",
+     "also": null,
+     "desc": "Set up the bot in this server: welcomes, roles, moderation, prefix...",
+     "usage": "<action> [channel] [role] [value]",
+     "options": [
+      {
+       "name": "action",
+       "desc": "What to set up",
+       "required": true,
+       "choices": [
+        "view all settings",
+        "welcome — welcome channel",
+        "goodbye — goodbye channel",
+        "welcome message — your own text ({usuario}, {servidor})",
+        "goodbye message — your own text ({usuario}, {servidor})",
+        "autorole — add a role given on join",
+        "remove autorole — remove one of the join roles",
+        "ranks — game rank roles (yes/no)",
+        "logs — moderation log channel",
+        "mod role — moderator role",
+        "punishment — e.g. \"3 aislar 1h\", \"5 expulsar\", \"3 no\"",
+        "expiry — days until a warn expires (0 = never)",
+        "prefix — command prefix (e.g. !)",
+        "announcements — channel where I post updates"
+       ]
+      },
+      {
+       "name": "channel",
+       "desc": "Channel (for welcome, goodbye, logs, announcements)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "role",
+       "desc": "Role (for autorole, remove autorole, mod role)",
+       "required": false,
+       "choices": []
+      },
+      {
+       "name": "value",
+       "desc": "Value: message, \"si\"/\"no\", \"3 aislar 1h\", days, prefix...",
+       "required": false,
+       "choices": []
+      }
+     ],
+     "aliases": [],
+     "mod": true
+    }
+   ]
+  }
+ ]
+}

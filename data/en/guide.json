@@ -1,0 +1,3489 @@
+{
+ "gifts": [
+  {
+   "id": "quetzalcoatl",
+   "emoji": "🐉",
+   "name": "Feathered Serpent",
+   "origin": "Quetzalcóatl (Mesoamerica)",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendary"
+   },
+   "skills": [
+    {
+     "name": "Jade Wing",
+     "level": 1,
+     "cost": 25,
+     "effect": "22-28 damage"
+    },
+    {
+     "name": "Wind Flight",
+     "level": 3,
+     "cost": 35,
+     "effect": "shield 8, your next attack x1.3, 45% dodge for 2 turns"
+    },
+    {
+     "name": "Feathered Serpent",
+     "level": 5,
+     "cost": 60,
+     "effect": "40-48 damage, ignores block"
+    }
+   ],
+   "greatSpell": {
+    "name": "Sky and Earth",
+    "effect": "54-64 damage, 60% stun"
+   }
+  },
+  {
+   "id": "tezcatlipoca",
+   "emoji": "🪞",
+   "name": "Smoking Mirror",
+   "origin": "Tezcatlipoca (Mesoamerica)",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendary"
+   },
+   "skills": [
+    {
+     "name": "Obsidian Edge",
+     "level": 1,
+     "cost": 25,
+     "effect": "21-27 damage"
+    },
+    {
+     "name": "Smoking Mirror",
+     "level": 3,
+     "cost": 35,
+     "effect": "shield 20, reflects 50% of damage for 2 turns"
+    },
+    {
+     "name": "Night Jaguar",
+     "level": 5,
+     "cost": 55,
+     "effect": "38-46 damage, rival 30% to miss for 2 turns"
+    }
+   ],
+   "greatSpell": {
+    "name": "Night and Wind",
+    "effect": "52-62 damage, reflects 40% of damage for 2 turns"
+   }
+  },
+  {
+   "id": "pachamama",
+   "emoji": "🌽",
+   "name": "Offering to the Pachamama",
+   "origin": "Pachamama (Andes)",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendary"
+   },
+   "skills": [
+    {
+     "name": "Fertile Earth",
+     "level": 1,
+     "cost": 25,
+     "effect": "20-26 damage"
+    },
+    {
+     "name": "Offering to the Pachamama",
+     "level": 3,
+     "cost": 50,
+     "effect": "heals 20, cleanses effects"
+    },
+    {
+     "name": "Tremor",
+     "level": 5,
+     "cost": 55,
+     "effect": "38-46 damage, 30% stun"
+    }
+   ],
+   "greatSpell": {
+    "name": "Mother Earth",
+    "effect": "52-62 damage, heals 10, cleanses effects"
+   }
+  },
+  {
+   "id": "salamanca",
+   "emoji": "😈",
+   "name": "Salamanca Pact",
+   "origin": "The Salamanca (Southern Cone)",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendary"
+   },
+   "skills": [
+    {
+     "name": "Pact",
+     "level": 1,
+     "cost": 20,
+     "effect": "24-30 damage, -2 to you"
+    },
+    {
+     "name": "Borrowed Power",
+     "level": 3,
+     "cost": 30,
+     "effect": "your next attack x1.8, -5 to you"
+    },
+    {
+     "name": "The Salamanca's Price",
+     "level": 5,
+     "cost": 55,
+     "effect": "48-58 damage, -6 to you"
+    }
+   ],
+   "greatSpell": {
+    "name": "The Salamanca",
+    "effect": "60-72 damage, -5 to you"
+   }
+  },
+  {
+   "id": "nahualismo",
+   "emoji": "🐆",
+   "name": "Nahualism",
+   "origin": "The Nahual (Mesoamerica)",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "skills": [
+    {
+     "name": "Claw Swipe",
+     "level": 1,
+     "cost": 25,
+     "effect": "20-26 damage"
+    },
+    {
+     "name": "Nahualism",
+     "level": 3,
+     "cost": 40,
+     "effect": "heals 15, +35% damage for 3 turns"
+    },
+    {
+     "name": "Nahual's Fury",
+     "level": 5,
+     "cost": 55,
+     "effect": "36-44 damage, steals 25% health"
+    }
+   ],
+   "greatSpell": {
+    "name": "Night of the Nahuales",
+    "effect": "50-60 damage, +25% damage for 2 turns"
+   }
+  },
+  {
+   "id": "illapa",
+   "emoji": "⚡",
+   "name": "Illapa's Lightning",
+   "origin": "Illapa (Andes)",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "skills": [
+    {
+     "name": "Spark",
+     "level": 1,
+     "cost": 20,
+     "effect": "19-25 damage, ignores block"
+    },
+    {
+     "name": "Illapa's Lightning",
+     "level": 3,
+     "cost": 35,
+     "effect": "28-34 damage, ignores block, 20% stun"
+    },
+    {
+     "name": "Altiplano Storm",
+     "level": 5,
+     "cost": 60,
+     "effect": "40-48 damage, ignores block"
+    }
+   ],
+   "greatSpell": {
+    "name": "Illapa's Hail",
+    "effect": "50-60 damage, 60% stun"
+   }
+  },
+  {
+   "id": "lobizon",
+   "emoji": "🐺",
+   "name": "Seventh Son",
+   "origin": "The Lobizón (Southern Cone)",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "skills": [
+    {
+     "name": "Bite",
+     "level": 1,
+     "cost": 25,
+     "effect": "23-29 damage"
+    },
+    {
+     "name": "Full Moon",
+     "level": 3,
+     "cost": 35,
+     "effect": "heals 6, -3 to you, +45% damage for 3 turns"
+    },
+    {
+     "name": "Carnage",
+     "level": 5,
+     "cost": 55,
+     "effect": "40-48 damage, -2 to you"
+    }
+   ],
+   "greatSpell": {
+    "name": "Full Moon Friday",
+    "effect": "56-66 damage, -3 to you"
+   }
+  },
+  {
+   "id": "yacumama",
+   "emoji": "🌊",
+   "name": "Amazon Tide",
+   "origin": "The Yacumama (Amazon)",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "skills": [
+    {
+     "name": "Tail Lash",
+     "level": 1,
+     "cost": 25,
+     "effect": "20-26 damage"
+    },
+    {
+     "name": "Whirlpool",
+     "level": 3,
+     "cost": 35,
+     "effect": "22-28 damage, drains 20⚡"
+    },
+    {
+     "name": "Amazon Tide",
+     "level": 5,
+     "cost": 60,
+     "effect": "40-48 damage, 35% stun"
+    }
+   ],
+   "greatSpell": {
+    "name": "Mother of Water",
+    "effect": "52-62 damage, drains 30⚡"
+   }
+  },
+  {
+   "id": "pelota",
+   "emoji": "🏟️",
+   "name": "Ballgame",
+   "origin": "Xibalbá (Maya)",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "skills": [
+    {
+     "name": "Ball Strike",
+     "level": 1,
+     "cost": 25,
+     "effect": "20-26 damage"
+    },
+    {
+     "name": "Ballgame",
+     "level": 3,
+     "cost": 35,
+     "effect": "18-24 damage, drains 30⚡"
+    },
+    {
+     "name": "Loser's Sacrifice",
+     "level": 5,
+     "cost": 55,
+     "effect": "36-44 damage, drains 20⚡, rival -20% damage for 2 turns"
+    }
+   ],
+   "greatSpell": {
+    "name": "Xibalbá",
+    "effect": "50-60 damage, drains 40⚡"
+   }
+  },
+  {
+   "id": "cadejo",
+   "emoji": "🐕",
+   "name": "Cadejo, Light and Shadow",
+   "origin": "The Cadejo (Central America)",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "skills": [
+    {
+     "name": "Bite",
+     "level": 1,
+     "cost": 25,
+     "effect": "20-26 damage"
+    },
+    {
+     "name": "White Cadejo",
+     "level": 3,
+     "cost": 35,
+     "effect": "heals 10, shield 18"
+    },
+    {
+     "name": "Black Cadejo",
+     "level": 5,
+     "cost": 50,
+     "effect": "36-44 damage, steals 15% health"
+    }
+   ],
+   "greatSpell": {
+    "name": "Light and Shadow",
+    "effect": "48-58 damage, heals 10"
+   }
+  },
+  {
+   "id": "llorona",
+   "emoji": "👰",
+   "name": "La Llorona's Wail",
+   "origin": "La Llorona (Mexico)",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "skills": [
+    {
+     "name": "Tears",
+     "level": 1,
+     "cost": 20,
+     "effect": "19-25 damage"
+    },
+    {
+     "name": "Wail",
+     "level": 3,
+     "cost": 30,
+     "effect": "16-20 damage, rival -35% damage for 2 turns"
+    },
+    {
+     "name": "Oh, my children!",
+     "level": 5,
+     "cost": 50,
+     "effect": "37-45 damage, 30% stun"
+    }
+   ],
+   "greatSpell": {
+    "name": "River of Tears",
+    "effect": "46-56 damage, rival -30% damage for 2 turns"
+   }
+  },
+  {
+   "id": "apu",
+   "emoji": "⛰️",
+   "name": "Breath of the Apu",
+   "origin": "The Apus (Andes)",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "skills": [
+    {
+     "name": "Rock Throw",
+     "level": 1,
+     "cost": 20,
+     "effect": "18-24 damage"
+    },
+    {
+     "name": "Breath of the Apu",
+     "level": 3,
+     "cost": 30,
+     "effect": "shield 38"
+    },
+    {
+     "name": "Avalanche",
+     "level": 5,
+     "cost": 50,
+     "effect": "35-43 damage, 25% stun"
+    }
+   ],
+   "greatSpell": {
+    "name": "Sacred Range",
+    "effect": "46-56 damage, shield 30"
+   }
+  },
+  {
+   "id": "alicanto",
+   "emoji": "🌟",
+   "name": "Alicanto's Glow",
+   "origin": "The Alicanto (Andes)",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "skills": [
+    {
+     "name": "Golden Flash",
+     "level": 1,
+     "cost": 20,
+     "effect": "17-23 damage, rival 20% to miss for 1 turns"
+    },
+    {
+     "name": "Alicanto's Glow",
+     "level": 3,
+     "cost": 30,
+     "effect": "rival 45% to miss for 2 turns, +15% loot"
+    },
+    {
+     "name": "Flight of Gold",
+     "level": 5,
+     "cost": 50,
+     "effect": "37-45 damage"
+    }
+   ],
+   "greatSpell": {
+    "name": "Gold Vein",
+    "effect": "46-56 damage, rival 50% to miss for 2 turns, +20% loot"
+   }
+  },
+  {
+   "id": "condor",
+   "emoji": "🦅",
+   "name": "Condor Dive",
+   "origin": "The Andean Condor (Andes)",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "skills": [
+    {
+     "name": "Talon",
+     "level": 1,
+     "cost": 20,
+     "effect": "20-26 damage"
+    },
+    {
+     "name": "Condor Dive",
+     "level": 3,
+     "cost": 35,
+     "effect": "28-34 damage, ignores block, x1.6 if it's your first hit"
+    },
+    {
+     "name": "High Flight",
+     "level": 5,
+     "cost": 40,
+     "effect": "your next attack x1.3, 40% dodge for 2 turns"
+    }
+   ],
+   "greatSpell": {
+    "name": "Andean Sky",
+    "effect": "52-62 damage"
+   }
+  },
+  {
+   "id": "mulanima",
+   "emoji": "⛓️",
+   "name": "Burning Chains",
+   "origin": "The Mulánima (Southern Cone)",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "skills": [
+    {
+     "name": "Chain Lash",
+     "level": 1,
+     "cost": 20,
+     "effect": "19-25 damage"
+    },
+    {
+     "name": "Burning Chains",
+     "level": 3,
+     "cost": 35,
+     "effect": "16-20 damage, 25% stun, burns 6×3"
+    },
+    {
+     "name": "Drag",
+     "level": 5,
+     "cost": 50,
+     "effect": "34-42 damage, burns 5×2"
+    }
+   ],
+   "greatSpell": {
+    "name": "Soul Mule",
+    "effect": "46-56 damage, burns 9×3"
+   }
+  },
+  {
+   "id": "kalku",
+   "emoji": "🦉",
+   "name": "Kalku's Hex",
+   "origin": "The Kalku (Mapuche)",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "skills": [
+    {
+     "name": "Evil Eye",
+     "level": 1,
+     "cost": 20,
+     "effect": "16-22 damage, rival -15% damage for 2 turns"
+    },
+    {
+     "name": "Hex",
+     "level": 3,
+     "cost": 35,
+     "effect": "rival 15% to miss for 2 turns, 30 hex in 2 turns"
+    },
+    {
+     "name": "Curse",
+     "level": 5,
+     "cost": 45,
+     "effect": "30-38 damage, seals gift 1 turn(s)"
+    }
+   ],
+   "greatSpell": {
+    "name": "Wekufe",
+    "effect": "40-50 damage, 22 hex in 2 turns"
+   }
+  },
+  {
+   "id": "piuchen",
+   "emoji": "🦇",
+   "name": "Piuchén's Thirst",
+   "origin": "The Piuchén (Mapuche)",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "skills": [
+    {
+     "name": "Bite",
+     "level": 1,
+     "cost": 20,
+     "effect": "18-24 damage, steals 15% health"
+    },
+    {
+     "name": "Piuchén's Thirst",
+     "level": 3,
+     "cost": 35,
+     "effect": "26-32 damage, steals 22% health"
+    },
+    {
+     "name": "Night Flight",
+     "level": 5,
+     "cost": 35,
+     "effect": "30% dodge for 2 turns"
+    }
+   ],
+   "greatSpell": {
+    "name": "Blood Night",
+    "effect": "46-56 damage, steals 20% health"
+   }
+  },
+  {
+   "id": "boitata",
+   "emoji": "🔥",
+   "name": "Fire Serpent",
+   "origin": "The Boitatá (Brazil)",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "skills": [
+    {
+     "name": "Fiery Bite",
+     "level": 1,
+     "cost": 20,
+     "effect": "17-23 damage, burns 2×2"
+    },
+    {
+     "name": "Trail of Fire",
+     "level": 3,
+     "cost": 30,
+     "effect": "6-10 damage, burns 3×3"
+    },
+    {
+     "name": "Fire Serpent",
+     "level": 5,
+     "cost": 50,
+     "effect": "33-41 damage, burns 3×2"
+    }
+   ],
+   "greatSpell": {
+    "name": "Burning Field",
+    "effect": "44-54 damage, burns 4×3"
+   }
+  },
+  {
+   "id": "siguanaba",
+   "emoji": "🎭",
+   "name": "Siguanaba's Face",
+   "origin": "The Siguanaba (Central America)",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "skills": [
+    {
+     "name": "Seduction",
+     "level": 1,
+     "cost": 20,
+     "effect": "19-25 damage"
+    },
+    {
+     "name": "Siguanaba's Face",
+     "level": 3,
+     "cost": 35,
+     "effect": "12-16 damage, 50% to confuse for 2 turns"
+    },
+    {
+     "name": "Illusion",
+     "level": 5,
+     "cost": 45,
+     "effect": "32-40 damage, rival -15% damage for 2 turns"
+    }
+   ],
+   "greatSpell": {
+    "name": "Enchanted Ravine",
+    "effect": "46-56 damage, 50% to confuse for 2 turns"
+   }
+  },
+  {
+   "id": "espanto",
+   "emoji": "👺",
+   "name": "Fright",
+   "origin": "The Chaneque (Mexico)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "skills": [
+    {
+     "name": "Scare",
+     "level": 1,
+     "cost": 20,
+     "effect": "16-22 damage, 25% stun"
+    },
+    {
+     "name": "Steal Courage",
+     "level": 3,
+     "cost": 30,
+     "effect": "12-16 damage, drains 15⚡, rival -20% damage for 2 turns"
+    },
+    {
+     "name": "Fright",
+     "level": 5,
+     "cost": 45,
+     "effect": "30-38 damage, 40% stun"
+    }
+   ],
+   "greatSpell": {
+    "name": "Chaneque Woods",
+    "effect": "44-54 damage, 60% stun"
+   }
+  },
+  {
+   "id": "alux",
+   "emoji": "🗿",
+   "name": "Mud Guardian",
+   "origin": "The Alux (Maya)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "skills": [
+    {
+     "name": "Mud Fist",
+     "level": 1,
+     "cost": 20,
+     "effect": "17-23 damage"
+    },
+    {
+     "name": "Mud Guardian",
+     "level": 3,
+     "cost": 30,
+     "effect": "shield 38"
+    },
+    {
+     "name": "Living Wall",
+     "level": 5,
+     "cost": 45,
+     "effect": "30-38 damage, shield 18"
+    }
+   ],
+   "greatSpell": {
+    "name": "Guarded Cornfield",
+    "effect": "42-52 damage, shield 25"
+   }
+  },
+  {
+   "id": "ekeko",
+   "emoji": "👝",
+   "name": "Ekeko's Bag",
+   "origin": "The Ekeko (Aymara)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "skills": [
+    {
+     "name": "Coin Toss",
+     "level": 1,
+     "cost": 20,
+     "effect": "17-23 damage, drains 10⚡"
+    },
+    {
+     "name": "Ekeko's Bag",
+     "level": 3,
+     "cost": 30,
+     "effect": "50% jackpot (+30❤️ +30⚡), +15% loot"
+    },
+    {
+     "name": "Alasita",
+     "level": 5,
+     "cost": 45,
+     "effect": "32-40 damage, your next attack x1.4"
+    }
+   ],
+   "greatSpell": {
+    "name": "Alasitas Fair",
+    "effect": "44-54 damage, +20% loot"
+   }
+  },
+  {
+   "id": "luzmala",
+   "emoji": "🕯️",
+   "name": "Evil Light",
+   "origin": "The Luz Mala (Southern Cone)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "skills": [
+    {
+     "name": "Will-o'-the-Wisp",
+     "level": 1,
+     "cost": 20,
+     "effect": "15-21 damage, burns 3×2"
+    },
+    {
+     "name": "Evil Light",
+     "level": 3,
+     "cost": 30,
+     "effect": "10-14 damage, rival 25% to miss for 2 turns"
+    },
+    {
+     "name": "Field Blaze",
+     "level": 5,
+     "cost": 45,
+     "effect": "30-38 damage, burns 6×2"
+    }
+   ],
+   "greatSpell": {
+    "name": "Moonless Night",
+    "effect": "42-52 damage, rival 35% to miss for 2 turns"
+   }
+  },
+  {
+   "id": "pombero",
+   "emoji": "🌳",
+   "name": "Pombero's Whistle",
+   "origin": "The Pombero (Guaraní)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "skills": [
+    {
+     "name": "Braids",
+     "level": 1,
+     "cost": 20,
+     "effect": "18-24 damage"
+    },
+    {
+     "name": "Pombero's Whistle",
+     "level": 3,
+     "cost": 30,
+     "effect": "18-22 damage, 50% stun, steals shield and buffs"
+    },
+    {
+     "name": "Forest Mischief",
+     "level": 5,
+     "cost": 45,
+     "effect": "33-41 damage, drains 15⚡"
+    }
+   ],
+   "greatSpell": {
+    "name": "Pombero's Siesta",
+    "effect": "48-58 damage, 70% stun"
+   }
+  },
+  {
+   "id": "rewe",
+   "emoji": "🌿",
+   "name": "Rewe Rite",
+   "origin": "The Machi (Mapuche)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "skills": [
+    {
+     "name": "Canelo Branch",
+     "level": 1,
+     "cost": 20,
+     "effect": "18-24 damage"
+    },
+    {
+     "name": "Rewe Rite",
+     "level": 3,
+     "cost": 35,
+     "effect": "heals 36, cleanses effects"
+    },
+    {
+     "name": "Machitún",
+     "level": 5,
+     "cost": 45,
+     "effect": "30-38 damage, heals 14"
+    }
+   ],
+   "greatSpell": {
+    "name": "Nguillatún",
+    "effect": "46-56 damage, heals 20, cleanses effects"
+   }
+  },
+  {
+   "id": "curupira",
+   "emoji": "🦶",
+   "name": "Curupira's Feet",
+   "origin": "The Curupira (Brazil)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "skills": [
+    {
+     "name": "Forest Strike",
+     "level": 1,
+     "cost": 20,
+     "effect": "20-26 damage"
+    },
+    {
+     "name": "Curupira's Feet",
+     "level": 3,
+     "cost": 30,
+     "effect": "50% dodge for 2 turns, rival 20% to miss for 2 turns"
+    },
+    {
+     "name": "Raging Jungle",
+     "level": 5,
+     "cost": 45,
+     "effect": "35-43 damage"
+    }
+   ],
+   "greatSpell": {
+    "name": "Endless Forest",
+    "effect": "44-54 damage, rival 40% to miss for 2 turns"
+   }
+  },
+  {
+   "id": "boto",
+   "emoji": "🐬",
+   "name": "Boto's Charm",
+   "origin": "The Enchanted Boto (Amazon)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "skills": [
+    {
+     "name": "Tail Lash",
+     "level": 1,
+     "cost": 20,
+     "effect": "18-24 damage"
+    },
+    {
+     "name": "Boto's Charm",
+     "level": 3,
+     "cost": 25,
+     "effect": "10-14 damage, 100% stun"
+    },
+    {
+     "name": "River Whirlpool",
+     "level": 5,
+     "cost": 45,
+     "effect": "34-42 damage, drains 20⚡"
+    }
+   ],
+   "greatSpell": {
+    "name": "Saint John's Feast",
+    "effect": "42-52 damage, 70% stun"
+   }
+  },
+  {
+   "id": "saci",
+   "emoji": "🌪️",
+   "name": "Saci's Whirlwind",
+   "origin": "The Saci Pererê (Brazil)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "skills": [
+    {
+     "name": "Kick",
+     "level": 1,
+     "cost": 20,
+     "effect": "18-24 damage"
+    },
+    {
+     "name": "Saci's Whirlwind",
+     "level": 3,
+     "cost": 30,
+     "effect": "14-18 damage, 50% to confuse for 2 turns"
+    },
+    {
+     "name": "Whirlwind",
+     "level": 5,
+     "cost": 45,
+     "effect": "33-41 damage, 30% stun"
+    }
+   ],
+   "greatSpell": {
+    "name": "Enchanted Pipe",
+    "effect": "42-52 damage, 50% to confuse for 2 turns"
+   }
+  },
+  {
+   "id": "sombreron",
+   "emoji": "🎸",
+   "name": "Sombrerón's Guitar",
+   "origin": "The Sombrerón (Guatemala)",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "skills": [
+    {
+     "name": "Strum",
+     "level": 1,
+     "cost": 20,
+     "effect": "19-25 damage"
+    },
+    {
+     "name": "Serenade",
+     "level": 3,
+     "cost": 35,
+     "effect": "12-16 damage, 85% stun"
+    },
+    {
+     "name": "Mule Braids",
+     "level": 5,
+     "cost": 45,
+     "effect": "32-40 damage, steals 15% health, drains 10⚡"
+    }
+   ],
+   "greatSpell": {
+    "name": "Cursed Lullaby",
+    "effect": "42-52 damage, 90% stun"
+   }
+  }
+ ],
+ "nahuales": [
+  {
+   "id": "quetzal",
+   "emoji": "🐉",
+   "name": "Quetzalcóatl",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendary"
+   },
+   "passive": "Sky and earth: it attacks from the air: your hits ignore block and shield, and +7% evasion."
+  },
+  {
+   "id": "llorona",
+   "emoji": "👰",
+   "name": "La Llorona",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendary"
+   },
+   "passive": "Wail: the rival hits you 14% less and loses 3 energy per turn."
+  },
+  {
+   "id": "nahual",
+   "emoji": "🐆",
+   "name": "Nahual",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendary"
+   },
+   "passive": "A thousand shapes: copies the passive of the rival's companion; if they have none, you hit 10% harder."
+  },
+  {
+   "id": "yacumama",
+   "emoji": "🐍",
+   "name": "Yacumama",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendary"
+   },
+   "passive": "Mother of water: every 6 turns it raises a giant wave (11-15 damage). In raids, every 5 hits."
+  },
+  {
+   "id": "condor_apu",
+   "emoji": "🦅",
+   "name": "Apu Condor",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "passive": "Dive: on your first turn it dives onto the rival (12-16 damage)."
+  },
+  {
+   "id": "muqui",
+   "emoji": "⛏️",
+   "name": "Muqui",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "passive": "Mine inferno: the mine goblin burns 2 of the rival's health every 2 turns."
+  },
+  {
+   "id": "curupira",
+   "emoji": "🦶",
+   "name": "Curupira",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "passive": "False trail: its backward feet confuse the rival: +8% evasion (15% in raids)."
+  },
+  {
+   "id": "piuchen",
+   "emoji": "🦇",
+   "name": "Piuchén",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "passive": "Thirst: you heal 8% of the damage you deal."
+  },
+  {
+   "id": "cadejo_blanco",
+   "emoji": "🐕",
+   "name": "White Cadejo",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "passive": "Protector: you start with a 4 shield and, if you drop below 30%, it covers you with another of 6. In raids it heals the weakest ally."
+  },
+  {
+   "id": "cadejo_negro",
+   "emoji": "🐺",
+   "name": "Black Cadejo",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "passive": "Stalker: +12% damage if the rival is below half health."
+  },
+  {
+   "id": "boto",
+   "emoji": "🐬",
+   "name": "Enchanted Boto",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "passive": "Charm: 5% chance the rival is enchanted and doesn't attack you (15% for the boss in raids)."
+  },
+  {
+   "id": "lechuza",
+   "emoji": "🦉",
+   "name": "Witch Owl",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "passive": "Night vision: +6% crit and crits do x1.7 instead of x1.5."
+  },
+  {
+   "id": "alicanto",
+   "emoji": "🐦",
+   "name": "Alicanto",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "passive": "Gold: +4% loot and, at the start, dazzles the rival (30% to miss for 2 turns)."
+  },
+  {
+   "id": "chaneque",
+   "emoji": "👺",
+   "name": "Chaneque",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "passive": "Scare: on hit, 10% to stun the rival (once per fight)."
+  },
+  {
+   "id": "alux_barro",
+   "emoji": "🗿",
+   "name": "Mud Alux",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "passive": "Guardian: you take 4% less damage (10% in raids)."
+  },
+  {
+   "id": "mariposa_negra",
+   "emoji": "🦋",
+   "name": "Black Butterfly",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "passive": "Omen: it sees the rival's move coming: 8% to dodge their gift skills (10% of the boss's hits in raids)."
+  },
+  {
+   "id": "cuy",
+   "emoji": "🐹",
+   "name": "Fortune-telling Cuy",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "passive": "Good omen: +5% loot chance when you win."
+  }
+ ],
+ "zones": [
+  {
+   "id": "milpa",
+   "emoji": "🌽",
+   "name": "Aluxes' Cornfield",
+   "level": 1,
+   "safe": true,
+   "desc": "The Aluxes guard the cornfields of Yucatán. This is where you learn: nobody gets hurt.",
+   "boss": "Elder Alux",
+   "grades": [
+    {
+     "emoji": "🟢",
+     "name": "Apparition"
+    }
+   ]
+  },
+  {
+   "id": "selva_curupira",
+   "emoji": "🌳",
+   "name": "Curupira's Jungle",
+   "level": 3,
+   "safe": false,
+   "desc": "Tracks that point the wrong way. The Curupira protects his jungle.",
+   "boss": "Curupira",
+   "grades": [
+    {
+     "emoji": "🟢",
+     "name": "Apparition"
+    },
+    {
+     "emoji": "🟡",
+     "name": "Fright"
+    }
+   ]
+  },
+  {
+   "id": "altiplano",
+   "emoji": "🏔️",
+   "name": "Altiplano of the Apus",
+   "level": 6,
+   "safe": false,
+   "desc": "The sacred peaks watch from above. Air is scarce and spirits are plenty.",
+   "boss": "Apu Condor",
+   "grades": [
+    {
+     "emoji": "🟡",
+     "name": "Fright"
+    },
+    {
+     "emoji": "🟢",
+     "name": "Apparition"
+    }
+   ]
+  },
+  {
+   "id": "pampa",
+   "emoji": "🌾",
+   "name": "Pampas of the Luz Mala",
+   "level": 8,
+   "safe": false,
+   "desc": "Open fields and long nights. If you see a light, don't follow it.",
+   "boss": "Lobizón",
+   "grades": [
+    {
+     "emoji": "🟡",
+     "name": "Fright"
+    },
+    {
+     "emoji": "🟠",
+     "name": "Haunt"
+    }
+   ]
+  },
+  {
+   "id": "cenotes",
+   "emoji": "💧",
+   "name": "Sacred Cenotes",
+   "level": 10,
+   "safe": false,
+   "desc": "Crystal-clear sinkholes that lead to the Maya underworld.",
+   "boss": "Cenote Guardian",
+   "grades": [
+    {
+     "emoji": "🟡",
+     "name": "Fright"
+    },
+    {
+     "emoji": "🟠",
+     "name": "Haunt"
+    }
+   ]
+  },
+  {
+   "id": "amazonas",
+   "emoji": "🌊",
+   "name": "Amazon River",
+   "level": 13,
+   "safe": false,
+   "desc": "The biggest river in the world, and the mother of water lives in it.",
+   "boss": "Yacumama",
+   "grades": [
+    {
+     "emoji": "🟠",
+     "name": "Haunt"
+    },
+    {
+     "emoji": "🟡",
+     "name": "Fright"
+    }
+   ]
+  },
+  {
+   "id": "salamanca",
+   "emoji": "🕳️",
+   "name": "Salamanca Caves",
+   "level": 16,
+   "safe": false,
+   "desc": "Where the Devil teaches his arts in exchange for your soul. You can hear music inside.",
+   "boss": "The Devil of the Salamanca",
+   "grades": [
+    {
+     "emoji": "🟠",
+     "name": "Haunt"
+    },
+    {
+     "emoji": "🔴",
+     "name": "Beast"
+    }
+   ]
+  },
+  {
+   "id": "mina_supay",
+   "emoji": "⛏️",
+   "name": "Supay's Mine",
+   "level": 19,
+   "safe": false,
+   "desc": "The tunnels of Potosí. Down below, Supay owns everything.",
+   "boss": "Supay",
+   "grades": [
+    {
+     "emoji": "🟠",
+     "name": "Haunt"
+    },
+    {
+     "emoji": "🔴",
+     "name": "Beast"
+    }
+   ]
+  },
+  {
+   "id": "cadejos",
+   "emoji": "🌲",
+   "name": "Forest of the Cadejos",
+   "level": 22,
+   "safe": false,
+   "desc": "Two spectral dogs: one guards you, the other hunts you.",
+   "boss": "Black Cadejo",
+   "grades": [
+    {
+     "emoji": "🟠",
+     "name": "Haunt"
+    },
+    {
+     "emoji": "🔴",
+     "name": "Beast"
+    }
+   ]
+  },
+  {
+   "id": "selva_boitata",
+   "emoji": "🔥",
+   "name": "Boitatá's Jungle",
+   "level": 26,
+   "safe": false,
+   "desc": "The fire serpent guards this jungle. The grass burns by itself.",
+   "boss": "Boitatá",
+   "grades": [
+    {
+     "emoji": "🔴",
+     "name": "Beast"
+    },
+    {
+     "emoji": "💀",
+     "name": "Legend"
+    }
+   ]
+  },
+  {
+   "id": "rewe",
+   "emoji": "🪵",
+   "name": "Rewe Hill",
+   "level": 30,
+   "safe": false,
+   "desc": "The machi's rewe connects the worlds. The kalku want to cut it down.",
+   "boss": "Piuchén",
+   "grades": [
+    {
+     "emoji": "🔴",
+     "name": "Beast"
+    },
+    {
+     "emoji": "💀",
+     "name": "Legend"
+    }
+   ]
+  },
+  {
+   "id": "valle_llorona",
+   "emoji": "🌙",
+   "name": "Valley of La Llorona",
+   "level": 34,
+   "safe": false,
+   "desc": "By the river, at night, you hear a cry that chills the blood.",
+   "boss": "La Llorona",
+   "grades": [
+    {
+     "emoji": "🔴",
+     "name": "Beast"
+    },
+    {
+     "emoji": "💀",
+     "name": "Legend"
+    }
+   ]
+  },
+  {
+   "id": "templo_mayor",
+   "emoji": "🛕",
+   "name": "Templo Mayor",
+   "level": 38,
+   "safe": false,
+   "desc": "The heart of Tenochtitlan. The smoking mirror is still smoking.",
+   "boss": "Tezcatlipoca",
+   "grades": [
+    {
+     "emoji": "💀",
+     "name": "Legend"
+    },
+    {
+     "emoji": "☄️",
+     "name": "Calamity"
+    }
+   ]
+  },
+  {
+   "id": "xibalba",
+   "emoji": "🌑",
+   "name": "Xibalbá",
+   "level": 45,
+   "safe": false,
+   "desc": "The Maya underworld. Its lords judge everyone who comes down.",
+   "boss": "Lords of Xibalbá",
+   "grades": [
+    {
+     "emoji": "☄️",
+     "name": "Calamity"
+    },
+    {
+     "emoji": "💀",
+     "name": "Legend"
+    }
+   ]
+  },
+  {
+   "id": "mictlan",
+   "emoji": "💀",
+   "name": "Mictlán, the nine levels",
+   "level": 52,
+   "safe": false,
+   "desc": "The Mexica realm of the dead. Each level is worse than the last.",
+   "boss": "Mictlantecuhtli",
+   "grades": [
+    {
+     "emoji": "☄️",
+     "name": "Calamity"
+    },
+    {
+     "emoji": "🌑",
+     "name": "Primordial"
+    }
+   ]
+  },
+  {
+   "id": "camino_sol",
+   "emoji": "☀️",
+   "name": "Road of the Sun",
+   "level": 60,
+   "safe": false,
+   "desc": "The Qhapaq Ñan leads to Inti himself. Only the strongest make it.",
+   "boss": "Inti",
+   "grades": [
+    {
+     "emoji": "🌑",
+     "name": "Primordial"
+    },
+    {
+     "emoji": "☄️",
+     "name": "Calamity"
+    }
+   ]
+  }
+ ],
+ "creatures": [
+  {
+   "grade": {
+    "id": "4",
+    "emoji": "🟢",
+    "name": "Apparition"
+   },
+   "creatures": [
+    {
+     "emoji": "👺",
+     "name": "Mischievous Chaneque",
+     "skills": [
+      "Hide things",
+      "Scare"
+     ]
+    },
+    {
+     "emoji": "🍄",
+     "name": "Forest goblin",
+     "skills": [
+      "Lose your way",
+      "Club smash"
+     ]
+    },
+    {
+     "emoji": "🐹",
+     "name": "Witch cuy",
+     "skills": [
+      "Cursed nibble",
+      "Screech"
+     ]
+    },
+    {
+     "emoji": "🦋",
+     "name": "Black butterfly",
+     "skills": [
+      "Bad omen",
+      "Mourning dust"
+     ]
+    }
+   ]
+  },
+  {
+   "grade": {
+    "id": "3",
+    "emoji": "🟡",
+    "name": "Fright"
+   },
+   "creatures": [
+    {
+     "emoji": "🗿",
+     "name": "Guardian Alux",
+     "skills": [
+      "Mud fist",
+      "None shall pass"
+     ]
+    },
+    {
+     "emoji": "🐸",
+     "name": "Xolotl's Toad",
+     "skills": [
+      "Underworld tongue",
+      "Croak to the dead"
+     ]
+    },
+    {
+     "emoji": "🦎",
+     "name": "Obsidian lizard",
+     "skills": [
+      "Obsidian tail",
+      "Razor scales"
+     ]
+    },
+    {
+     "emoji": "🦝",
+     "name": "Thieving coati",
+     "skills": [
+      "Steal coins",
+      "Scratch"
+     ]
+    }
+   ]
+  },
+  {
+   "grade": {
+    "id": "2",
+    "emoji": "🟠",
+    "name": "Haunt"
+   },
+   "creatures": [
+    {
+     "emoji": "🐺",
+     "name": "Black Cadejo",
+     "skills": [
+      "Night stalk",
+      "Spectral howl"
+     ]
+    },
+    {
+     "emoji": "🦇",
+     "name": "Chupacabras",
+     "skills": [
+      "Drain life",
+      "Leap"
+     ]
+    },
+    {
+     "emoji": "🕯️",
+     "name": "Evil Light",
+     "skills": [
+      "Will-o'-the-wisp",
+      "Disorient"
+     ]
+    },
+    {
+     "emoji": "🦉",
+     "name": "Witch owl",
+     "skills": [
+      "Aerial hex",
+      "Ill-omened song"
+     ]
+    },
+    {
+     "emoji": "🌳",
+     "name": "Pombero",
+     "skills": [
+      "Whistle",
+      "Siesta theft"
+     ]
+    },
+    {
+     "emoji": "🐒",
+     "name": "Mohán's Monkey",
+     "skills": [
+      "Mockery",
+      "Club smash"
+     ]
+    },
+    {
+     "emoji": "🐬",
+     "name": "Shapeshifted Boto",
+     "skills": [
+      "Seduce",
+      "Drag into the water"
+     ]
+    },
+    {
+     "emoji": "🌪️",
+     "name": "Saci Pererê",
+     "skills": [
+      "Whirlwind",
+      "One-legged kick"
+     ]
+    }
+   ]
+  },
+  {
+   "grade": {
+    "id": "1",
+    "emoji": "🔴",
+    "name": "Beast"
+   },
+   "creatures": [
+    {
+     "emoji": "🐺",
+     "name": "Lobizón",
+     "skills": [
+      "Full moon",
+      "Rend"
+     ]
+    },
+    {
+     "emoji": "🐴",
+     "name": "Mulánima",
+     "skills": [
+      "Chains of fire",
+      "Drag"
+     ]
+    },
+    {
+     "emoji": "🌿",
+     "name": "Madremonte",
+     "skills": [
+      "Close the paths",
+      "Forest fury"
+     ]
+    },
+    {
+     "emoji": "🦵",
+     "name": "Patasola",
+     "skills": [
+      "Jungle hunt",
+      "Deadly leap"
+     ]
+    },
+    {
+     "emoji": "🎸",
+     "name": "Sombrerón",
+     "skills": [
+      "Bewitched guitar",
+      "Braid"
+     ]
+    },
+    {
+     "emoji": "🎭",
+     "name": "Tunda",
+     "skills": [
+      "Shapeshift",
+      "Deceit"
+     ]
+    },
+    {
+     "emoji": "🧙",
+     "name": "Kalku",
+     "skills": [
+      "Hex",
+      "Mapuche curse"
+     ]
+    },
+    {
+     "emoji": "⛏️",
+     "name": "Lesser Supay",
+     "skills": [
+      "Mine fire",
+      "Cave-in"
+     ]
+    }
+   ]
+  },
+  {
+   "grade": {
+    "id": "especial",
+    "emoji": "💀",
+    "name": "Legend"
+   },
+   "creatures": [
+    {
+     "emoji": "🦶",
+     "name": "Curupira",
+     "skills": [
+      "False tracks",
+      "Forest fury"
+     ]
+    },
+    {
+     "emoji": "🐦",
+     "name": "Alicanto",
+     "skills": [
+      "Golden glow",
+      "Golden flight"
+     ]
+    },
+    {
+     "emoji": "🦇",
+     "name": "Piuchén",
+     "skills": [
+      "Suck blood",
+      "Night flight"
+     ]
+    },
+    {
+     "emoji": "🌊",
+     "name": "Cai Cai Vilu",
+     "skills": [
+      "Raise the sea",
+      "Serpent tail"
+     ]
+    },
+    {
+     "emoji": "⛰️",
+     "name": "Tren Tren Vilu",
+     "skills": [
+      "Raise the hills",
+      "Crush"
+     ]
+    },
+    {
+     "emoji": "💀",
+     "name": "Siguanaba",
+     "skills": [
+      "Skull face",
+      "Drive mad"
+     ]
+    },
+    {
+     "emoji": "🐕",
+     "name": "White and black Cadejo",
+     "skills": [
+      "Light",
+      "Shadow"
+     ]
+    },
+    {
+     "emoji": "🐊",
+     "name": "Caiman Man",
+     "skills": [
+      "River bite",
+      "Armor"
+     ]
+    },
+    {
+     "emoji": "👝",
+     "name": "Corrupted Ekeko",
+     "skills": [
+      "Inverted abundance",
+      "Coin Toss"
+     ]
+    },
+    {
+     "emoji": "🦖",
+     "name": "Young Cipactli",
+     "skills": [
+      "A thousand mouths",
+      "Primordial monster"
+     ]
+    }
+   ]
+  },
+  {
+   "grade": {
+    "id": "calamidad",
+    "emoji": "☄️",
+    "name": "Calamity"
+   },
+   "creatures": [
+    {
+     "emoji": "🔥",
+     "name": "Boitatá",
+     "skills": [
+      "Fire serpent",
+      "Burning trail"
+     ]
+    },
+    {
+     "emoji": "🐍",
+     "name": "Yacumama",
+     "skills": [
+      "Giant wave",
+      "Constriction"
+     ]
+    },
+    {
+     "emoji": "🦍",
+     "name": "Mapinguari",
+     "skills": [
+      "Giant fist",
+      "One-eyed roar"
+     ]
+    },
+    {
+     "emoji": "👰",
+     "name": "La Llorona",
+     "skills": [
+      "Oh, my children!",
+      "Wail"
+     ]
+    },
+    {
+     "emoji": "😈",
+     "name": "The Devil of the Salamanca",
+     "skills": [
+      "Dangerous pact",
+      "Salamanca fire"
+     ]
+    },
+    {
+     "emoji": "👹",
+     "name": "Supay",
+     "skills": [
+      "Mine inferno",
+      "Steal the soul"
+     ]
+    },
+    {
+     "emoji": "🦅",
+     "name": "Apu Condor",
+     "skills": [
+      "Mountain dive",
+      "Wings of the Apu"
+     ]
+    },
+    {
+     "emoji": "🪞",
+     "name": "Tezcatlipoca",
+     "skills": [
+      "Smoking mirror",
+      "Night jaguar"
+     ]
+    },
+    {
+     "emoji": "🐐",
+     "name": "Huay Chivo",
+     "skills": [
+      "Horn gore",
+      "Maya witchcraft"
+     ]
+    },
+    {
+     "emoji": "🐆",
+     "name": "Greater Nahual",
+     "skills": [
+      "A thousand shapes",
+      "Jaguar swipe"
+     ]
+    }
+   ]
+  },
+  {
+   "grade": {
+    "id": "primordial",
+    "emoji": "🌑",
+    "name": "Primordial"
+   },
+   "creatures": [
+    {
+     "emoji": "💀",
+     "name": "Mictlantecuhtli",
+     "skills": [
+      "Nine levels",
+      "Lord of the dead"
+     ]
+    },
+    {
+     "emoji": "⚖️",
+     "name": "Lords of Xibalbá",
+     "skills": [
+      "Judgment",
+      "House of Razors"
+     ]
+    },
+    {
+     "emoji": "🐉",
+     "name": "Quetzalcóatl",
+     "skills": [
+      "Jade wind",
+      "Feathered serpent"
+     ]
+    },
+    {
+     "emoji": "🐍",
+     "name": "Coatlicue",
+     "skills": [
+      "Skirt of serpents",
+      "Mother of the gods"
+     ]
+    },
+    {
+     "emoji": "🌀",
+     "name": "Pachakuti",
+     "skills": [
+      "The world turns over",
+      "Cataclysm"
+     ]
+    },
+    {
+     "emoji": "☀️",
+     "name": "Inti",
+     "skills": [
+      "Sunbeam",
+      "Midday heat"
+     ]
+    },
+    {
+     "emoji": "🌽",
+     "name": "Pachamama",
+     "skills": [
+      "Tremor",
+      "Mother earth"
+     ]
+    },
+    {
+     "emoji": "⛈️",
+     "name": "Tlaloc and Chaac",
+     "skills": [
+      "Rain lightning",
+      "Double storm"
+     ]
+    }
+   ]
+  }
+ ],
+ "relics": [
+  {
+   "id": "macuahuitl",
+   "emoji": "🪓",
+   "name": "Sun Macuahuitl",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendary"
+   },
+   "desc": "A club edged with obsidian blades. Under the sun it hits even harder.",
+   "stats": "+5% damage, +3% crit, +6% damage by day",
+   "craftOnly": false
+  },
+  {
+   "id": "pluma_quetzal",
+   "emoji": "🪶",
+   "name": "Quetzal Feather",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendary"
+   },
+   "desc": "A sacred feather that pulls you away from death once per fight.",
+   "stats": "+6 health, 6% esquivar, survives a lethal hit",
+   "craftOnly": false
+  },
+  {
+   "id": "mascara_funeraria",
+   "emoji": "💀",
+   "name": "Funeral Mask",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendary"
+   },
+   "desc": "A jade mask for the journey to Mictlán. It lets you come back once.",
+   "stats": "+10 health, revives once with 25% health",
+   "craftOnly": false
+  },
+  {
+   "id": "agua_florida",
+   "emoji": "💐",
+   "name": "Florida Water",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendary"
+   },
+   "desc": "It cleanses energies and brings you back once.",
+   "stats": "25% to cleanse each turn, revives once with 25% health",
+   "craftOnly": false
+  },
+  {
+   "id": "chancleta_mama",
+   "emoji": "🩴",
+   "name": "Mom's Flip-Flop",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendary"
+   },
+   "desc": "It always hits, never misses and reaches from afar. It lands crits and terrifies the rival.",
+   "stats": "+5% damage, +8% crit, your hits can't be dodged, 15% to weaken on hit (-20% damage)",
+   "craftOnly": false
+  },
+  {
+   "id": "bendicion_mama",
+   "emoji": "💖",
+   "name": "Mom's Blessing",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "legendario",
+    "emoji": "🟡",
+    "name": "Legendary"
+   },
+   "desc": "With mom's blessing, everything goes better.",
+   "stats": "+4% damage, +8 health, you start with +8⚡, +3% crit, 3% esquivar",
+   "craftOnly": false
+  },
+  {
+   "id": "guitarra_sombreron",
+   "emoji": "🎸",
+   "name": "Sombrerón's Guitar",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "desc": "Its bewitched music puts whoever hears it to sleep.",
+   "stats": "+3% damage, +4 health, 10% to stun on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "poncho_salamanca",
+   "emoji": "🧥",
+   "name": "Salamanca Poncho",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "desc": "Woven in the Salamanca: it stops gift powers, but takes your life bit by bit.",
+   "stats": "+8 health, -25% damage from gifts, loses 2 health per turn",
+   "craftOnly": false
+  },
+  {
+   "id": "lampara_luz_mala",
+   "emoji": "🏮",
+   "name": "Luz Mala Lantern",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "desc": "A trapped will-o'-the-wisp: it disorients the enemy and makes you hard to follow.",
+   "stats": "8% esquivar, 15% to dazzle on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "cantaro_cenote",
+   "emoji": "⚱️",
+   "name": "Cenote Jug",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "desc": "Sacred cenote water that seals the enemy's powers.",
+   "stats": "you start with +8⚡, 15% to seal on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "rosario_curandero",
+   "emoji": "📿",
+   "name": "Healer's Rosary",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "desc": "Every bead is a prayer. It heals you bit by bit.",
+   "stats": "+4 health, +4 health per turn",
+   "craftOnly": false
+  },
+  {
+   "id": "machete_abuelo",
+   "emoji": "🔪",
+   "name": "Grandpa's Machete",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "desc": "Rusty, with the handle tied with wire... but it never failed. It gets better with every hunt you win.",
+   "stats": "+3% damage, +4% crit, +4% vs creatures, +1% damage every 50 hunts won (max +6%)",
+   "craftOnly": false
+  },
+  {
+   "id": "bombo_leguero",
+   "emoji": "🥁",
+   "name": "Bombo Legüero Drum",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "desc": "Heard from a league away: its beat makes you hit harder.",
+   "stats": "+5% damage, you start with +8⚡",
+   "craftOnly": false
+  },
+  {
+   "id": "huipil_bordado",
+   "emoji": "👚",
+   "name": "Embroidered Huipil",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "desc": "Every stitch is a protection against hexes.",
+   "stats": "+6 health, -15% damage from gifts, 20% to cleanse each turn",
+   "craftOnly": false
+  },
+  {
+   "id": "escapulario",
+   "emoji": "✝️",
+   "name": "Scapular",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "desc": "It saves you from a fatal blow once per fight.",
+   "stats": "+4 health, survives a lethal hit",
+   "craftOnly": false
+  },
+  {
+   "id": "vela_siete_colores",
+   "emoji": "🕯️",
+   "name": "Seven-Color Candle",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "desc": "It powers up your great ritual: your ultimate attack hits harder.",
+   "stats": "you start with +8⚡, +20% Great Spell damage",
+   "craftOnly": false
+  },
+  {
+   "id": "palo_santo",
+   "emoji": "🌳",
+   "name": "Palo Santo",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "desc": "It purifies the place: strong enemies lose power.",
+   "stats": "+10% vs creatures, -10% damage from gifts",
+   "craftOnly": false
+  },
+  {
+   "id": "cinturon_papa",
+   "emoji": "➰",
+   "name": "Dad's Belt",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "desc": "A warning blow: the rival loses strength just from seeing it.",
+   "stats": "+3% damage, 20% to weaken on hit (-25% damage)",
+   "craftOnly": false
+  },
+  {
+   "id": "zapatilla_voladora",
+   "emoji": "👞",
+   "name": "Flying Slipper",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "desc": "The quick version of the flip-flop: it hits less, but it hits first.",
+   "stats": "+2% damage, +6% crit, +1⚡ per turn",
+   "craftOnly": false
+  },
+  {
+   "id": "sarten_abuela",
+   "emoji": "🥘",
+   "name": "Grandma's Iron Skillet",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "desc": "It blocks the blow and sends it back.",
+   "stats": "+1% damage, starting shield 10, reflects 12% of damage",
+   "craftOnly": false
+  },
+  {
+   "id": "olla_presion",
+   "emoji": "♨️",
+   "name": "Pressure Cooker",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "desc": "Boiling steam... with the risk it blows up on you.",
+   "stats": "+7% damage, loses 2 health per turn, 12% to burn on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "mirada_mama",
+   "emoji": "😠",
+   "name": "Mom's Look",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "desc": "It freezes the rival in fear of getting grounded.",
+   "stats": "+2% crit, 14% to stun on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "cuando_llegue_padre",
+   "emoji": "🚪",
+   "name": "\"Wait Till Your Father Gets Home\"",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "desc": "A threat that comes true: backup arrives in two turns.",
+   "stats": "15% for a 14 hit to land in 2 turn(s)",
+   "craftOnly": false
+  },
+  {
+   "id": "ya_vas_a_ver",
+   "emoji": "😤",
+   "name": "The \"You'll See\"",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "desc": "It announces a huge blow that lands next turn.",
+   "stats": "12% for a 20 hit to land in 1 turn(s)",
+   "craftOnly": false
+  },
+  {
+   "id": "caldo_gallina",
+   "emoji": "🐔",
+   "name": "Hen Broth",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "epico",
+    "emoji": "🟣",
+    "name": "Epic"
+   },
+   "desc": "It picks you up even when you're down.",
+   "stats": "revives once with 25% health",
+   "craftOnly": false
+  },
+  {
+   "id": "tumi",
+   "emoji": "🌙",
+   "name": "Ceremonial Tumi",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "A half-moon blade that breaks shields and barriers.",
+   "stats": "+2% damage, ignores block and shield",
+   "craftOnly": false
+  },
+  {
+   "id": "facon_gil",
+   "emoji": "🗡️",
+   "name": "Gauchito Gil's Facón",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "A quick, precise cut, the kind that gives no warning.",
+   "stats": "+3% damage, +5% crit",
+   "craftOnly": false
+  },
+  {
+   "id": "cadena_mulanima",
+   "emoji": "⛓️",
+   "name": "Mulánima's Chain",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "A red-hot chain that leaves the rival burning.",
+   "stats": "+2% damage, 14% to burn on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "bolsa_ekeko",
+   "emoji": "👝",
+   "name": "Ekeko's Bag",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "The god of abundance fills your pockets.",
+   "stats": "+4 health, +6% loot",
+   "craftOnly": false
+  },
+  {
+   "id": "collar_jade",
+   "emoji": "🟢",
+   "name": "Jade Necklace",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "The green stone protects the body and stokes your energy.",
+   "stats": "+8 health, you start with +12⚡",
+   "craftOnly": false
+  },
+  {
+   "id": "muiraquita",
+   "emoji": "🐸",
+   "name": "Muiraquitã Amulet",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "A little green stone frog that protects from fire, poison and water.",
+   "stats": "+6 health, -50% burn damage",
+   "craftOnly": false
+  },
+  {
+   "id": "amuleto_fuego",
+   "emoji": "♨️",
+   "name": "Fire Amulet",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "A Boitatá scale: it doesn't burn you and burns whoever touches you.",
+   "stats": "-30% burn damage, 10% to burn on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "cuchillo_monte",
+   "emoji": "🗡️",
+   "name": "Bush Knife",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "Made for clearing a path through forest and jungle. It cuts better against what lives there.",
+   "stats": "+2% damage, +8% vs creatures",
+   "craftOnly": false
+  },
+  {
+   "id": "hacha_lenador",
+   "emoji": "🪓",
+   "name": "Woodcutter's Axe",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "A slow, heavy blow that splits defenses like firewood.",
+   "stats": "+3% damage, ignores block and shield",
+   "craftOnly": false
+  },
+  {
+   "id": "rebenque_arriero",
+   "emoji": "🏇",
+   "name": "Drover's Whip",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "A quick blow that speeds you up and stuns the rival.",
+   "stats": "+2⚡ per turn, 7% to stun on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "lazo_gaucho",
+   "emoji": "🪢",
+   "name": "Gaucho Lasso",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "It catches the rival and leaves them immobilized for a turn.",
+   "stats": "+1% damage, 11% to stun on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "cerbatana_cazador",
+   "emoji": "🎯",
+   "name": "Hunter's Blowgun",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "Darts with poison or sleep: you never know which one you'll get.",
+   "stats": "+1% damage, 12% to envenenar o aturdir on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "garrote_algarrobo",
+   "emoji": "🪵",
+   "name": "Algarrobo Club",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "Hard wood that stuns without spending energy.",
+   "stats": "+2% damage, you start with +10⚡, 6% to stun on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "comal_barro",
+   "emoji": "🍳",
+   "name": "Clay Comal",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "Hot food that restores you in the middle of a fight.",
+   "stats": "+4 health, +3 health per turn",
+   "craftOnly": false
+  },
+  {
+   "id": "mate_cebado",
+   "emoji": "🧉",
+   "name": "Freshly Brewed Mate",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "It sharpens your focus: more critical hits.",
+   "stats": "you start with +6⚡, +6% crit",
+   "craftOnly": false
+  },
+  {
+   "id": "bombilla_plata",
+   "emoji": "🥢",
+   "name": "Silver Bombilla",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "Silver cleans the mate and, while it's at it, cleanses your ailments.",
+   "stats": "+2% crit, 30% to cleanse each turn",
+   "craftOnly": false
+  },
+  {
+   "id": "olla_abuelo",
+   "emoji": "🍲",
+   "name": "Grandpa's Pot",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "A stew that gives health and endurance.",
+   "stats": "+10 health, -20% burn damage",
+   "craftOnly": false
+  },
+  {
+   "id": "charango",
+   "emoji": "🪕",
+   "name": "Charango",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "Andean music that makes you faster.",
+   "stats": "4% esquivar, +2⚡ per turn",
+   "craftOnly": false
+  },
+  {
+   "id": "quena",
+   "emoji": "🪈",
+   "name": "Quena",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "Its sound calms the rival and lowers their attack.",
+   "stats": "+3 health, 15% to weaken on hit (-20% damage)",
+   "craftOnly": false
+  },
+  {
+   "id": "ocarina_barro",
+   "emoji": "🏺",
+   "name": "Clay Ocarina",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "Its song draws spirits in: better chance one joins you when you win.",
+   "stats": "+1 health per turn, +50% nahual chance from hunting",
+   "craftOnly": false
+  },
+  {
+   "id": "guitarra_criolla",
+   "emoji": "🎸",
+   "name": "Criollo Guitar",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "A song that eases fatigue.",
+   "stats": "you start with +5⚡, +3 health per turn",
+   "craftOnly": false
+  },
+  {
+   "id": "poncho_abuelo",
+   "emoji": "🧣",
+   "name": "Grandpa's Poncho",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "It keeps out cold and rain: you withstand lingering damage better.",
+   "stats": "+8 health, -35% burn damage",
+   "craftOnly": false
+  },
+  {
+   "id": "sombrero_ala",
+   "emoji": "🤠",
+   "name": "Wide-Brimmed Hat",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "It protects you from the sun and helps you dodge.",
+   "stats": "+3 health, 6% esquivar",
+   "craftOnly": false
+  },
+  {
+   "id": "chuspa_coca",
+   "emoji": "🌿",
+   "name": "Coca Pouch",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "A small woven pouch that gives energy and endurance.",
+   "stats": "+5 health, you start with +8⚡, +1⚡ per turn",
+   "craftOnly": false
+  },
+  {
+   "id": "rosario_abuela",
+   "emoji": "📿",
+   "name": "Grandma's Rosary",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "It protects you from spirits and heals you a bit each turn.",
+   "stats": "+2 health per turn, -10% damage from gifts",
+   "craftOnly": false
+  },
+  {
+   "id": "herradura_vieja",
+   "emoji": "🐴",
+   "name": "Old Horseshoe",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "It attracts good luck and deflects hexes.",
+   "stats": "15% to cleanse each turn, +4% loot",
+   "craftOnly": false
+  },
+  {
+   "id": "azabache",
+   "emoji": "⚫",
+   "name": "Azabache Charm",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "It protects you from the evil eye and the rival's powers.",
+   "stats": "-8% damage from gifts, 25% to cleanse each turn",
+   "craftOnly": false
+  },
+  {
+   "id": "sahumerio_copal",
+   "emoji": "💨",
+   "name": "Copal Incense",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "It cleanses the air and wards off spirits.",
+   "stats": "+4% vs creatures, 30% to cleanse each turn",
+   "craftOnly": false
+  },
+  {
+   "id": "palo_amasar",
+   "emoji": "🥖",
+   "name": "Rolling Pin",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "High close-range damage, with a chance to stun.",
+   "stats": "+4% damage, 7% to stun on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "cucharon_abuela",
+   "emoji": "🍜",
+   "name": "Grandma's Ladle",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "Every blow comes with a little broth: it heals you a bit.",
+   "stats": "+2% damage, steals 6% health",
+   "craftOnly": false
+  },
+  {
+   "id": "escoba_casa",
+   "emoji": "🧹",
+   "name": "House Broom",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "It sweeps the rival away and pushes them back.",
+   "stats": "+2% damage, 4% esquivar, 6% to stun on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "manguera_vecino",
+   "emoji": "🚿",
+   "name": "The Neighbor's Hose",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "Water everywhere: it soaks the rival and puts out your fires.",
+   "stats": "+3% damage, -30% burn damage",
+   "craftOnly": false
+  },
+  {
+   "id": "grito_ven_aca",
+   "emoji": "📣",
+   "name": "The \"Get Over Here!\" Yell",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "It pulls them toward you and leaves them defenseless.",
+   "stats": "+2% damage, ignores block and shield",
+   "craftOnly": false
+  },
+  {
+   "id": "nombre_completo",
+   "emoji": "📛",
+   "name": "The Full Name",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "When they hear their full name, the rival loses their turn.",
+   "stats": "10% to stun on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "yo_a_tu_edad",
+   "emoji": "👴",
+   "name": "\"When I Was Your Age...\"",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "A lecture that stuns the rival or lowers their morale.",
+   "stats": "12% to aturdir o debilitar on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "vicks",
+   "emoji": "🫙",
+   "name": "Vicks on the Chest",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "Brings the fever down: you withstand burns and poisons better.",
+   "stats": "20% to cleanse each turn, -40% burn damage",
+   "craftOnly": false
+  },
+  {
+   "id": "mate_caliente",
+   "emoji": "☕",
+   "name": "Hot Mate",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "Sharpens your focus.",
+   "stats": "you start with +5⚡, +5% crit",
+   "craftOnly": false
+  },
+  {
+   "id": "foto_familia",
+   "emoji": "👪",
+   "name": "Family Photo",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "It protects you from sadness and fear.",
+   "stats": "+6 health, 20% to cleanse each turn",
+   "craftOnly": false
+  },
+  {
+   "id": "billetera_papa",
+   "emoji": "👛",
+   "name": "Dad's Wallet",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "It brings coins... hard to get them out, but they come out.",
+   "stats": "+12% pesos from hunting",
+   "craftOnly": false
+  },
+  {
+   "id": "remedio_secreto",
+   "emoji": "🧪",
+   "name": "Secret Home Remedy",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "raro",
+    "emoji": "🔵",
+    "name": "Rare"
+   },
+   "desc": "Nobody knows what's in it: it might cure everything or taste awful.",
+   "stats": "a surprise effect in every fight",
+   "craftOnly": false
+  },
+  {
+   "id": "boleadoras",
+   "emoji": "🪢",
+   "name": "Silver Bolas",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "They tangle around the rival's legs and leave them stuck.",
+   "stats": "+1% damage, 6% to stun on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "machete_curupira",
+   "emoji": "🔪",
+   "name": "Curupira's Machete",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "It cuts your tracks: the rival can't tell where you're coming from.",
+   "stats": "+2% damage, 12% to dazzle on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "piedra_ver",
+   "emoji": "👁️",
+   "name": "Seeing Stone",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "Looking through it you can see the rival's weaknesses.",
+   "stats": "+4% crit",
+   "craftOnly": false
+  },
+  {
+   "id": "huevo_limpia",
+   "emoji": "🫧",
+   "name": "Cleansing Egg",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "Rolled over the body, it takes the evil eye away.",
+   "stats": "+3 health, 25% to cleanse each turn",
+   "craftOnly": false
+  },
+  {
+   "id": "apacheta",
+   "emoji": "🪨",
+   "name": "Portable Apacheta",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "A pile of offering stones that protects you on the road.",
+   "stats": "starting shield 8",
+   "craftOnly": false
+  },
+  {
+   "id": "cuenco_chicha",
+   "emoji": "🥣",
+   "name": "Chicha Bowl",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "Corn chicha that restores energy turn after turn.",
+   "stats": "you start with +10⚡, +2⚡ per turn",
+   "craftOnly": false
+  },
+  {
+   "id": "pico_minero",
+   "emoji": "⛏️",
+   "name": "Miner's Pickaxe",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "Wherever it strikes, something breaks off: more materials when you win.",
+   "stats": "+1% damage, +50% materials from hunting",
+   "craftOnly": false
+  },
+  {
+   "id": "azada_abuela",
+   "emoji": "🌱",
+   "name": "Grandma's Hoe",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "It doesn't hit hard, but every blow gives you back a little health.",
+   "stats": "+3 health, steals 6% health",
+   "craftOnly": false
+  },
+  {
+   "id": "chicote_cuero",
+   "emoji": "🩸",
+   "name": "Leather Lash",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "A lash that leaves a light bleed.",
+   "stats": "+1% damage, 12% to burn on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "honda_pastor",
+   "emoji": "🪨",
+   "name": "Shepherd's Sling",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "Stones from afar: cheap, fast and always at hand.",
+   "stats": "+2% damage, you start with +6⚡",
+   "craftOnly": false
+  },
+  {
+   "id": "palo_ciego",
+   "emoji": "🦯",
+   "name": "Blind Man's Cane",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "A simple cane that blocks and strikes back.",
+   "stats": "starting shield 6, reflects 8% of damage",
+   "craftOnly": false
+  },
+  {
+   "id": "cuchillo_abuela",
+   "emoji": "🔪",
+   "name": "Grandma's Knife",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "A nimble, precise cut, perfect for harvesting materials.",
+   "stats": "+2% damage, +3% crit, +15% materials from hunting",
+   "craftOnly": false
+  },
+  {
+   "id": "cuchara_palo",
+   "emoji": "🥄",
+   "name": "Grandma's Wooden Spoon",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "It heals you a bit each turn (and watch it if you misbehave).",
+   "stats": "+2 health per turn",
+   "craftOnly": false
+  },
+  {
+   "id": "molinillo_chocolate",
+   "emoji": "🍫",
+   "name": "Chocolate Whisk",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "It whips up energy and gives it back to you bit by bit.",
+   "stats": "you start with +4⚡, +2⚡ per turn",
+   "craftOnly": false
+  },
+  {
+   "id": "molcajete",
+   "emoji": "🗿",
+   "name": "Heirloom Molcajete",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "It grinds whatever you find: you get more materials.",
+   "stats": "+2 health, +40% materials from hunting",
+   "craftOnly": false
+  },
+  {
+   "id": "metate_piedra",
+   "emoji": "🧱",
+   "name": "Stone Metate",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "It grinds common materials until they become useful.",
+   "stats": "starting shield 4, +30% materials from hunting",
+   "craftOnly": false
+  },
+  {
+   "id": "zampona",
+   "emoji": "🎶",
+   "name": "Panpipes",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "One breath that disorients the rival.",
+   "stats": "10% to dazzle on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "maracas",
+   "emoji": "🪇",
+   "name": "Maracas",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "Its noise scares off the weakest enemies.",
+   "stats": "+5% vs creatures, 2% esquivar",
+   "craftOnly": false
+  },
+  {
+   "id": "sonajero_ritual",
+   "emoji": "🔔",
+   "name": "Ritual Rattle",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "Wards off spirits and minor hexes.",
+   "stats": "20% to cleanse each turn, -15% burn damage",
+   "craftOnly": false
+  },
+  {
+   "id": "rebozo_abuela",
+   "emoji": "🧶",
+   "name": "Grandma's Shawl",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "It keeps you warm and covers you from blows.",
+   "stats": "+6 health, starting shield 4",
+   "craftOnly": false
+  },
+  {
+   "id": "alpargatas",
+   "emoji": "👟",
+   "name": "Worn Espadrilles",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "They've walked a thousand roads: light feet for dodging.",
+   "stats": "4% esquivar",
+   "craftOnly": false
+  },
+  {
+   "id": "faja_tejida",
+   "emoji": "🎗️",
+   "name": "Woven Sash",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "It protects your waist and gives you more health.",
+   "stats": "+10 health",
+   "craftOnly": false
+  },
+  {
+   "id": "estampita_santo",
+   "emoji": "🖼️",
+   "name": "Saint's Prayer Card",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "It brings luck: better loot.",
+   "stats": "+5% loot",
+   "craftOnly": false
+  },
+  {
+   "id": "ojo_venado",
+   "emoji": "🌰",
+   "name": "Deer's Eye",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "It wards off envy and adds defense.",
+   "stats": "+3 health, starting shield 6",
+   "craftOnly": false
+  },
+  {
+   "id": "ramito_ruda",
+   "emoji": "☘️",
+   "name": "Sprig of Rue",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "It removes the evil eye and fears.",
+   "stats": "30% to cleanse each turn",
+   "craftOnly": false
+  },
+  {
+   "id": "plumero",
+   "emoji": "🪶",
+   "name": "Feather Duster",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "It dusts off ailments and cursed dust.",
+   "stats": "+1% damage, 30% to cleanse each turn",
+   "craftOnly": false
+  },
+  {
+   "id": "trapeador_mojado",
+   "emoji": "🧽",
+   "name": "Wet Mop",
+   "slot": "Weapon",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "The rival slips and misses their blows.",
+   "stats": "+1% damage, 12% to dazzle on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "suspiro_resignado",
+   "emoji": "😮‍💨",
+   "name": "The Resigned Sigh",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "Takes a deep breath and recovers energy.",
+   "stats": "+3⚡ per turn",
+   "craftOnly": false
+  },
+  {
+   "id": "sopita_pollo",
+   "emoji": "🥣",
+   "name": "Chicken Soup",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "Heals and removes ailments.",
+   "stats": "+2 health per turn, 25% to cleanse each turn",
+   "craftOnly": false
+  },
+  {
+   "id": "te_manzanilla",
+   "emoji": "🍵",
+   "name": "Chamomile Tea",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "Calms you and recovers energy.",
+   "stats": "10% to cleanse each turn, +2⚡ per turn",
+   "craftOnly": false
+  },
+  {
+   "id": "pomada_abuela",
+   "emoji": "🧴",
+   "name": "Grandma's Ointment",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "Heals minor wounds right away.",
+   "stats": "+8 health",
+   "craftOnly": false
+  },
+  {
+   "id": "sana_sana",
+   "emoji": "🐸",
+   "name": "Heal, Heal, Little Frog's Tail",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "If it doesn't heal today, it'll heal tomorrow: you heal a bit each turn.",
+   "stats": "+3 health per turn",
+   "craftOnly": false
+  },
+  {
+   "id": "tupper_eterno",
+   "emoji": "🥡",
+   "name": "Eternal Tupperware",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "It holds everything: you take home more materials.",
+   "stats": "+3 health, +25% materials from hunting",
+   "craftOnly": false
+  },
+  {
+   "id": "radio_abuela",
+   "emoji": "📻",
+   "name": "Grandma's Radio",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "Music that lifts your spirits.",
+   "stats": "+2% damage, +1⚡ per turn",
+   "craftOnly": false
+  },
+  {
+   "id": "telenovela",
+   "emoji": "📺",
+   "name": "The 3 O'Clock Soap Opera",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "It distracts the rival and keeps them still for a turn.",
+   "stats": "10% to stun on hit",
+   "craftOnly": false
+  },
+  {
+   "id": "rosario_espejo",
+   "emoji": "🚗",
+   "name": "Rosary Hanging from the Mirror",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "It protects you on trips: you take a bit less damage from powers.",
+   "stats": "+5 health, -6% damage from gifts",
+   "craftOnly": false
+  },
+  {
+   "id": "llavero",
+   "emoji": "🔑",
+   "name": "Keychain with Every Key",
+   "slot": "Accessory",
+   "rarity": {
+    "id": "comun",
+    "emoji": "⚪",
+    "name": "Common"
+   },
+   "desc": "It opens any chest (and jingles all over the house).",
+   "stats": "+6% loot",
+   "craftOnly": false
+  }
+ ],
+ "ranks": [
+  {
+   "emoji": "🟢",
+   "name": "Apprentice",
+   "level": 1,
+   "desc": "Just arrived at the Tata's place. They still mix up rue and parsley."
+  },
+  {
+   "emoji": "🟡",
+   "name": "Tracker",
+   "level": 3,
+   "desc": "They can follow tracks and cure a bellyache."
+  },
+  {
+   "emoji": "🟠",
+   "name": "Pathfinder",
+   "level": 6,
+   "desc": "They know the woods like the back of their hand."
+  },
+  {
+   "emoji": "🔵",
+   "name": "Healer",
+   "level": 9,
+   "desc": "They can go into the woods alone at night."
+  },
+  {
+   "emoji": "🟣",
+   "name": "Senior Healer",
+   "level": 12,
+   "desc": "Up for promotion: they have to beat a Beast creature on their own."
+  },
+  {
+   "emoji": "🔴",
+   "name": "Sage of the Woods",
+   "level": 15,
+   "desc": "The highest by normal means: even the Pombero respects them."
+  },
+  {
+   "emoji": "🔥",
+   "name": "Master Healer",
+   "level": 18,
+   "desc": "People come from faraway villages to be healed by them."
+  },
+  {
+   "emoji": "💀",
+   "name": "Living Legend",
+   "level": 20,
+   "desc": "They speak to spirits as equals."
+  },
+  {
+   "emoji": "🌌",
+   "name": "Elite Tracker",
+   "level": 30,
+   "desc": "Beyond the legends. Very few get there."
+  },
+  {
+   "emoji": "☀️",
+   "name": "Tracker of the Century",
+   "level": 40,
+   "desc": "One shows up every hundred years."
+  },
+  {
+   "emoji": "👑",
+   "name": "The Strongest",
+   "level": 50,
+   "desc": "\"You beat Supay with all his souls. Now you are, kid: the strongest.\" — the Tata"
+  }
+ ]
+}
